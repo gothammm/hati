@@ -77,6 +77,21 @@ const App: Component = () => {
           </div>
         </div>
         <div
+          id="alert"
+          class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
+        >
+          <h2 class="font-medium text-xl mb-5">Alert</h2>
+          <div class="flex flex-row space-x-4 w-full">
+            <Alert>
+              <Terminal class="h-4 w-4" />
+              <AlertTitle>Heads up!</AlertTitle>
+              <AlertDescription>
+                You can add components to your app using the cli.
+              </AlertDescription>
+            </Alert>
+          </div>
+        </div>
+        <div
           id="accordion"
           class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
         >
@@ -93,21 +108,6 @@ const App: Component = () => {
                 <AccordionContent>Panel 2 content</AccordionContent>
               </AccordionItem>
             </Accordion>
-          </div>
-        </div>
-        <div
-          id="accordion"
-          class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
-        >
-          <h2 class="font-medium text-xl mb-5">Alert</h2>
-          <div class="flex flex-row space-x-4 w-full">
-            <Alert>
-              <Terminal class="h-4 w-4" />
-              <AlertTitle>Heads up!</AlertTitle>
-              <AlertDescription>
-                You can add components to your app using the cli.
-              </AlertDescription>
-            </Alert>
           </div>
         </div>
       </section>
