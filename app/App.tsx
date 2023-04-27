@@ -72,12 +72,8 @@ const App: Component = () => {
             <Button disabled>
               <Loader2 class="animate-spin mr-2 h-4 w-4" /> Loading
             </Button>
-            <Button
-              classList={{
-                ["px-0"]: true,
-              }}
-            >
-              <Save class="h-4 w-4" />
+            <Button aria-label="Save Button" class="w-12 h-12">
+              <Save class="h-6 w-6" />
             </Button>
           </div>
         </div>
