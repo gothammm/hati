@@ -15,7 +15,15 @@ import {
   AccordionTrigger,
 } from "components/accordion";
 
-import { AlertCircle, AlertTriangle, Loader2, Mail, Save, Terminal } from "lucide-solid";
+import {
+  AlertCircle,
+  AlertTriangle,
+  Github,
+  Loader2,
+  Mail,
+  Save,
+  Terminal,
+} from "lucide-solid";
 import { Alert, AlertDescription, AlertTitle } from "components/alert";
 
 const App: Component = () => {
@@ -24,8 +32,22 @@ const App: Component = () => {
       <header class="max-sm:px-10">
         <h1 class="font-semibold text-4xl">Hati</h1>
         <h3 class="font-light">A UI Component Library for Solid.js</h3>
+        <div class="flex mt-5">
+          <a
+            class="underline underline-offset-4"
+            href="https://github.com/gothammm/hati"
+          >
+            GitHub
+          </a>
+        </div>
 
-        <div class="mt-5 inline-flex space-x-2 text-red-600"><AlertTriangle /> <span class="font-extralight">This is not production ready, is in very early stage, this page is intended only for preview at the moment.</span></div>
+        <div class="mt-5 inline-flex space-x-2 text-red-600">
+          <AlertTriangle class="max-sm:h-14 max-sm:w-14" />
+          <span class="font-extralight">
+            This is not production ready, is in very early stage, this page is
+            intended only for preview at the moment.
+          </span>
+        </div>
       </header>
       <section class="grid grid-cols-3 gap-11 px-6 max-sm:grid-cols-1 max-md:grid-cols-2">
         <div
