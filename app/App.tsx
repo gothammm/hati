@@ -15,7 +15,7 @@ import {
   AccordionTrigger,
 } from "components/accordion";
 
-import { Loader2, Mail, Save, Terminal } from "lucide-solid";
+import { AlertCircle, Loader2, Mail, Save, Terminal } from "lucide-solid";
 import { Alert, AlertDescription, AlertTitle } from "components/alert";
 
 const App: Component = () => {
@@ -81,10 +81,21 @@ const App: Component = () => {
           class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
         >
           <h2 class="font-medium text-xl mb-5">Alert</h2>
-          <div class="flex flex-row space-x-4 w-full">
+          <div class="flex flex-col mb-5">
+            <h3 class="font-normal text-base mb-3">Default</h3>
             <Alert>
               <Terminal class="h-4 w-4" />
               <AlertTitle>Heads up!</AlertTitle>
+              <AlertDescription>
+                You can add components to your app using the cli.
+              </AlertDescription>
+            </Alert>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="font-normal text-base mb-2">Error</h3>
+            <Alert variant="error">
+              <AlertCircle class="h-4 w-4" />
+              <AlertTitle>Whoops!</AlertTitle>
               <AlertDescription>
                 You can add components to your app using the cli.
               </AlertDescription>
@@ -95,7 +106,7 @@ const App: Component = () => {
           id="accordion"
           class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
         >
-          <h2 class="font-medium text-xl mb-5">Accordion</h2>
+          <h2 class="font-medium text-xl mb-2">Accordion</h2>
           <div class="flex flex-row space-x-4 w-full">
             <Accordion collapsible>
               <AccordionItem value="panel-1">
