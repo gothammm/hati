@@ -1,0 +1,26 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:hati": "vite build --config hati.config.ts",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "lucide-solid": "^0.181.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vite-plugin-dts": "^2.3.0",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@ark-ui/solid": "latest",
+    "solid-js": "^1.6.10"
+  }
+}

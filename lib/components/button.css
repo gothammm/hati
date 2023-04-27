@@ -1,0 +1,33 @@
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply h-10 py-2 px-4 rounded-md inline-flex justify-center items-center text-sm font-normal transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+  .btn:disabled {
+    @apply pointer-events-none opacity-[.5]
+  }
+  .btn-primary {
+    color: hsl(var(--primary-foreground));
+    @apply bg-slate-900 hover:bg-slate-900/90;
+  }
+
+  .btn-secondary {
+    color: hsl(var(--secondary-foreground));
+    @apply bg-slate-200 hover:bg-slate-200/90;
+  }
+
+  .btn-destructive {
+    color: hsl(var(--destructive-foreground));
+    @apply bg-red-600 hover:bg-red-600/90;
+  }
+
+  .btn-outline {
+    border-color: hsl(var(--input));
+    @apply border;
+  }
+  .btn-outline:hover {
+    color: hsl(var(--accent-foreground));
+    background-color: hsl(var(--accent));
+  }
+}

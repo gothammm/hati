@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+  .card {
+    color: hsl(var(--card-foreground));
+    background-color: hsl(var(--card));
+    @apply rounded-lg border p-6 shadow-sm;
+  }
+  .card-header {
+    @apply flex flex-col space-y-1.5
+  }
+  .card-title {
+    @apply font-semibold text-lg leading-none tracking-tight;
+  }
+
+  .card-subtitle {
+    color: hsl(var(--muted-foreground));
+    @apply text-sm;
+  }
+
+  .card-content, .card-footer {
+    @apply pt-6;
+  }
+}

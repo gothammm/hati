@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "paths": {
+      "hati": ["./hati-dist/hati.es.js"],
+      "hati/*": ["./hati-dist/*"],
+      "components/*": ["./lib/components/*"],
+      "components": ["./lib/components/index.tsx"]
+    }
+  }
+}
