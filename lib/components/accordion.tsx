@@ -16,9 +16,9 @@ export const Accordion = (props: AccordionProps) => (
 );
 export const AccordionTrigger = (props: AccordionTriggerProps) => (
   <ArkAccordionTrigger {...props}>
-    <h3 class="flex">
-      <button class="h-14 py-4 flex flex-1 font-medium transition-all hover:underline">{props.children}</button>
-    </h3>
+    <button class="h-14 py-4 flex flex-1 font-medium transition-all hover:underline">
+      <h3 class="flex">{props.children}</h3>
+    </button>
   </ArkAccordionTrigger>
 );
 export const AccordionItem = (props: AccordionItemProps) => (
