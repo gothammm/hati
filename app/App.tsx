@@ -25,13 +25,15 @@ import {
   Terminal,
 } from "lucide-solid";
 import { Alert, AlertDescription, AlertTitle } from "components/alert";
+import { Avatar, AvatarFallback, AvatarImage } from "components/avatar";
+import { PreviewContainer } from "./PreviewContainer";
 
 const App: Component = () => {
   return (
     <main class="flex flex-col justify-center items-center space-y-10 py-10">
       <header class="max-sm:px-10">
         <h1 class="font-semibold text-4xl">Hati</h1>
-        <h3 class="font-light">A UI Component Library for Solid.js</h3>
+        <h2 class="font-light">A UI Component Library for Solid.js</h2>
         <div class="flex mt-5">
           <a
             class="underline underline-offset-4"
@@ -50,10 +52,7 @@ const App: Component = () => {
         </div>
       </header>
       <section class="grid grid-cols-3 gap-11 px-6 max-sm:grid-cols-1 max-md:grid-cols-2">
-        <div
-          id="button"
-          class="rounded-lg border shadow-sm p-10 max-sm:col-span-1 max-md:col-auto"
-        >
+        <PreviewContainer id="button">
           <h2 class="font-medium text-xl mb-5">Buttons</h2>
           <div class="grid grid-cols-2 gap-5">
             <Button variant="primary">Primary</Button>
@@ -76,12 +75,11 @@ const App: Component = () => {
               <Save class="h-6 w-6" />
             </Button>
           </div>
-        </div>
+        </PreviewContainer>
 
-        <div
-          id="card"
-          class="rounded-lg border shadow-sm p-10 col-span-2 max-sm:col-span-1 max-md:col-auto"
-        >
+        <PreviewContainer id="card" classList={{
+          "col-span-2": true
+        }}>
           <h2 class="font-medium text-xl mb-5">Card</h2>
           <div class="flex flex-row space-x-4 w-full">
             <Card classList={{ ["flex-1"]: true }}>
@@ -95,11 +93,10 @@ const App: Component = () => {
               </CardFooter>
             </Card>
           </div>
-        </div>
-        <div
-          id="alert"
-          class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
-        >
+        </PreviewContainer>
+        <PreviewContainer id="alert" classList={{
+          "col-span-2": true
+        }}>
           <h2 class="font-medium text-xl mb-5">Alert</h2>
           <div class="flex flex-col mb-5">
             <h3 class="font-normal text-base mb-3">Default</h3>
@@ -121,11 +118,24 @@ const App: Component = () => {
               </AlertDescription>
             </Alert>
           </div>
-        </div>
-        <div
-          id="accordion"
-          class="rounded-lg border shadow-sm p-10 col-span-3 max-sm:col-span-1"
-        >
+        </PreviewContainer>
+        <PreviewContainer id="avatar" classList={{
+          "col-span-1": true
+        }}>
+          <h2 class="font-medium text-xl mb-2">Avatar</h2>
+          <div class="flex flex-1 flex-row space-x-4 max-sm:py-10 w-full justify-center items-center">
+            <Avatar>
+              <AvatarImage
+                src="https://github.com/gothammm.png"
+                alt="@shadcn"
+              />
+              <AvatarFallback>GM</AvatarFallback>
+            </Avatar>
+          </div>
+        </PreviewContainer>
+        <PreviewContainer id="accordion" classList={{
+          "col-span-3": true
+        }}>
           <h2 class="font-medium text-xl mb-2">Accordion</h2>
           <div class="flex flex-row space-x-4 w-full">
             <Accordion collapsible>
@@ -140,7 +150,7 @@ const App: Component = () => {
               </AccordionItem>
             </Accordion>
           </div>
-        </div>
+        </PreviewContainer>
       </section>
     </main>
   );

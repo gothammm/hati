@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+  .avatar {
+    @apply relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full transition-all;
+  }
+
+  .avatar-image,
+  .avatar-fallback {
+    @apply aspect-square h-full w-full;
+  }
+  .avatar-fallback {
+    @apply inline-flex justify-center items-center;
+    background-color: hsl(var(--secondary));
+  }
+  .avatar-fallback.hide {
+    display: none;
+  }
+}
