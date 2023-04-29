@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+import { resolve } from "path";
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 
@@ -11,8 +13,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      components: "lib/components",
-      hati: "hati-dist",
+      components: resolve(__dirname, "lib/components"),
+      hati: resolve(__dirname, "hati-dist"),
     },
   },
 });
