@@ -1,5 +1,4 @@
 import { JSX } from "solid-js";
-import { BaseComponent } from "../types";
 import "./card.css";
 
 interface CardProps extends JSX.HTMLAttributes<HTMLDivElement> {}

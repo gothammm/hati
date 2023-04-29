@@ -1,5 +1,4 @@
 import { defineConfig } from "vite";
-import { resolve } from "path";
 import solidPlugin from "vite-plugin-solid";
 
 export default defineConfig({
@@ -12,8 +11,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      components: resolve(__dirname, "lib/components"),
-      hati: resolve(__dirname, "hati-dist"),
+      components: "lib/components",
+      hati: "hati-dist",
     },
   },
 });

@@ -6,11 +6,12 @@
     background-color: hsl(var(--background));
     @apply relative w-full rounded-lg border p-4 [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg+div]:translate-y-[-1px] [&:has(svg)]:pl-11;
   }
-  .alert.error, .alert.error svg {
+  .alert.error,
+  .alert.error svg {
     color: hsl(var(--destructive));
   }
   .alert.error {
-    border-color: hsl(var(--destructive)/.5);
+    border-color: hsl(var(--destructive) / 0.5);
   }
   .alert svg {
     color: hsl(var(--foreground));

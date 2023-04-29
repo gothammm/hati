@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "ignorePatterns": ["*.{js,ts}", "dist", "node_modules", "*.config.{ts,js}"],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser", // if not already added
+  "plugins": ["solid"],
+  "extends": ["eslint:recommended", "plugin:solid/typescript"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"]
+  }
+}

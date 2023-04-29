@@ -10,7 +10,7 @@
     @apply aspect-square h-full w-full;
   }
   .avatar-fallback {
-    @apply inline-flex justify-center items-center;
+    @apply inline-flex items-center justify-center;
     background-color: hsl(var(--secondary));
   }
   .avatar-fallback.hide {

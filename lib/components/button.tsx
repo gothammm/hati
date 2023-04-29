@@ -1,9 +1,10 @@
-import { JSX, children } from "solid-js";
+/* eslint-disable solid/reactivity */
+import { JSX } from "solid-js";
 import "./button.css";
 import { omit } from "../util";
 
 interface ButtonProps extends JSX.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "outline" | "destructive";
+  variant?: "primary" | "secondary" | "outline" | "destructive" | "ghost";
 }
 
 export const Button = (props: ButtonProps) => {
