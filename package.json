@@ -32,6 +32,6 @@
   },
   "dependencies": {
     "@ark-ui/solid": "latest",
-    "solid-js": "^1.6.10"
+    "solid-js": "latest"
   }
 }

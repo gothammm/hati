@@ -10,7 +10,7 @@ import {
 } from "@ark-ui/solid";
 
 export const Accordion = (props: AccordionProps) => (
-  <ArkAccordion class="flex flex-1 flex-col justify-center p-3" {...props}>
+  <ArkAccordion {...props} class="flex flex-1 flex-col justify-center p-3">
     {props.children}
   </ArkAccordion>
 );
@@ -22,12 +22,12 @@ export const AccordionTrigger = (props: AccordionTriggerProps) => (
   </ArkAccordionTrigger>
 );
 export const AccordionItem = (props: AccordionItemProps) => (
-  <ArkAccordionItem class="flex flex-col border-b" {...props}>
+  <ArkAccordionItem {...props} class="flex flex-col border-b">
     {props.children}
   </ArkAccordionItem>
 );
 export const AccordionContent = (props: AccordionContentProps) => (
-  <ArkAccordionContent class="pb-4 pt-0" {...props}>
+  <ArkAccordionContent {...props} class="pb-4 pt-0">
     {props.children}
   </ArkAccordionContent>
 );

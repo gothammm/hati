@@ -46,7 +46,6 @@ const App: Component = () => {
               class="h-12 w-12"
               onClick={() => {
                 const updatedTheme = theme() === "dark" ? "light" : "dark";
-                console.log("---", updatedTheme);
                 applyTheme(updatedTheme);
                 setTheme(updatedTheme);
               }}
