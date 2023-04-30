@@ -9,7 +9,7 @@
     "serve": "vite preview",
     "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format": "prettier --write \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\""
+    "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
   },
   "license": "MIT",
   "devDependencies": {
