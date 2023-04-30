@@ -29,6 +29,7 @@ import { Alert, AlertDescription, AlertTitle } from "components/alert";
 import { Avatar, AvatarFallback, AvatarImage } from "components/avatar";
 import { PreviewContainer } from "./PreviewContainer";
 import { applyTheme } from "../lib/util";
+import { Badge } from "components/badge";
 
 const App: Component = () => {
   const [theme, setTheme] = createSignal<"dark" | "light">("light");
@@ -167,6 +168,20 @@ const App: Component = () => {
               />
               <AvatarFallback>GM</AvatarFallback>
             </Avatar>
+          </div>
+        </PreviewContainer>
+        <PreviewContainer
+          id="accordion"
+          classList={{
+            "col-span-3": true,
+          }}
+        >
+          <h2 class="mb-2 text-xl font-medium">Badge</h2>
+          <div class="mt-5 flex w-full flex-row space-x-4">
+            <Badge variant="primary">Primary</Badge>
+            <Badge variant="secondary">Secondary</Badge>
+            <Badge variant="destructive">Destructive</Badge>
+            <Badge variant="outline">Outline</Badge>
           </div>
         </PreviewContainer>
         <PreviewContainer

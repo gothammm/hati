@@ -1,0 +1,29 @@
+@tailwind components;
+
+@layer components {
+  .badge {
+    @apply inline-flex
+    items-center
+    rounded-full
+    border
+    border-transparent
+    px-2.5 py-0.5 text-xs font-semibold
+    transition-colors
+    focus:outline-none
+    focus:ring-2
+    focus:ring-ring
+    focus:ring-offset-2;
+  }
+  .badge.badge-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/80
+  }
+  .badge.badge-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80
+  }
+  .badge.badge-destructive {
+    @apply bg-destructive text-destructive-foreground hover:bg-destructive/80
+  }
+  .badge.badge-outline {
+    @apply bg-accent text-accent-foreground hover:bg-accent/80 border border-input
+  }
+}
