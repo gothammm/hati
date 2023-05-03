@@ -10,7 +10,6 @@ export const Avatar = (props: AvatarProps) => {
   const [showFallback, setShowFallback] = createSignal(false);
 
   createEffect(() => {
-    console.log("effect..");
     const list = resolved.toArray() as HTMLElement[];
     for (const child of list) {
       if (child.nodeName === "IMG") {

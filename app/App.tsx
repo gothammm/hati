@@ -27,9 +27,10 @@ import {
 } from "lucide-solid";
 import { Alert, AlertDescription, AlertTitle } from "components/alert";
 import { Avatar, AvatarFallback, AvatarImage } from "components/avatar";
-import { PreviewContainer } from "./PreviewContainer";
+import { PreviewContainer } from "./components/PreviewContainer";
 import { applyTheme } from "../lib/util";
 import { Badge } from "components/badge";
+import { TabsPreview } from "./components/TabsPreview";
 
 const App: Component = () => {
   const [theme, setTheme] = createSignal<"dark" | "light">("light");
@@ -209,6 +210,7 @@ const App: Component = () => {
             </Accordion>
           </div>
         </PreviewContainer>
+        <TabsPreview />
       </section>
     </main>
   );
