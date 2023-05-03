@@ -4,7 +4,7 @@
   .alert {
     color: hsl(var(--foreground));
     background-color: hsl(var(--background));
-    @apply relative w-full rounded-lg border p-4 [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg+div]:translate-y-[-1px] [&:has(svg)]:pl-11;
+    @apply relative w-full rounded-lg border p-4 [&:has(svg)]:pl-11 [&>svg+div]:translate-y-[-1px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4;
   }
   .alert.error,
   .alert.error svg {

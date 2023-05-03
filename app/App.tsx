@@ -177,7 +177,7 @@ const App: Component = () => {
           }}
         >
           <h2 class="mb-2 text-xl font-medium">Badge</h2>
-          <div class="mt-5 flex w-full flex-wrap space-x-4 max-sm:space-y-5 max-sm:space-x-0">
+          <div class="mt-5 flex w-full flex-wrap space-x-4 max-sm:space-x-0 max-sm:space-y-5">
             <div class="flex space-x-4">
               <Badge variant="primary">Primary</Badge>
               <Badge variant="secondary">Secondary</Badge>
