@@ -14,8 +14,8 @@ This library is in very early stage, barely has any components ready for use, fe
 
 #### Installation
 
-```
-npm install --save @gothammm/hati // or pnpm install --save @gothammm/hati
+```bash
+$ pnpm install --save @gothammm/hati # or npm install --save @gothammm/hati
 ```
 
 

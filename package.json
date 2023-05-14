@@ -1,6 +1,6 @@
 {
   "name": "@gothammm/hati",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI Component Library built for Solid.js",
   "scripts": {
     "app:dev": "vite --config ./app/vite.config.ts",
