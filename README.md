@@ -10,15 +10,37 @@ A port of [shadcn/ui](https://github.com/shadcn/ui) to Solid.js
 
 This library is in very early stage, barely has any components ready for use, feel free to test run with the following setup.
 
-### Getting started
+### Getting Started
 
-- Install dependencies
+#### Installation
 
-  ```bash
-  $ pnpm install # or npm install or yarn install
-  ```
+```
+npm install --save @gothammm/hati // or pnpm install --save @gothammm/hati
+```
 
-- To run the test app
-  ```bash
-  $ pnpm run dev
-  ```
+
+#### Usage
+
+```tsx
+import type { Component } from "solid-js";
+import { Button } from "@gothammm/hati";
+
+const MyComponent = (): Component => {
+  return <Button variant="primary">Primary</Button>
+};
+
+```
+
+### Contribute
+
+#### Install dependencies
+
+```bash
+$ pnpm install # or npm install or yarn install
+```
+
+#### To run the test app
+
+```bash
+$ pnpm app:dev
+```

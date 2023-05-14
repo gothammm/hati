@@ -1,5 +1,5 @@
 {
-  "name": "hati",
+  "name": "@gothammm/hati",
   "version": "0.0.1",
   "description": "UI Component Library built for Solid.js",
   "scripts": {
@@ -46,5 +46,17 @@
   "typesVersions": {},
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gothammm/hati.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/gothammm/hati/issues"
+  },
+  "homepage": "https://github.com/gothammm/hati#readme"
 }
