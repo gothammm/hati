@@ -1,4 +1,4 @@
-import { TabContent, TabList, TabTrigger, Tabs } from "components/tabs";
+import { TabContent, TabList, TabTrigger, Tabs } from "../../lib";
 import { PreviewContainer } from "./PreviewContainer";
 import { createSignal } from "solid-js";
 

@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:hati": "vite build --config hati.config.ts",
-    "serve": "vite preview",
+    "app:dev": "vite --config ./app/vite.config.ts",
+    "app:build": "vite build --config ./app/vite.config.ts",
+    "app:serve": "vite preview --config ./app/vite.config.ts",
     "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
     "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
@@ -25,6 +24,8 @@
     "prettier-plugin-tailwindcss": "^0.2.8",
     "tailwindcss": "^3.3.2",
     "tailwindcss-animate": "^1.0.5",
+    "tsup": "^6.7.0",
+    "tsup-preset-solid": "^0.1.8",
     "typescript": "^4.9.5",
     "vite": "^4.3.5",
     "vite-plugin-dts": "^2.3.0",
@@ -33,5 +34,17 @@
   "dependencies": {
     "@ark-ui/solid": "^0.3.0",
     "solid-js": "^1.7.5"
-  }
+  },
+  "browser": {},
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "require": "./dist/index.cjs"
+  },
+  "typesVersions": {},
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts"
 }

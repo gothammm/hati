@@ -1,19 +1,17 @@
 import { Component, Match, Switch, createSignal } from "solid-js";
-import { Button } from "components/button";
 import {
+  Button,
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardSubtitle,
   CardTitle,
-} from "components/card";
-import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "components/accordion";
+} from "../lib";
 
 import {
   AlertCircle,
@@ -25,11 +23,11 @@ import {
   Sun,
   Terminal,
 } from "lucide-solid";
-import { Alert, AlertDescription, AlertTitle } from "components/alert";
-import { Avatar, AvatarFallback, AvatarImage } from "components/avatar";
+import { Alert, AlertDescription, AlertTitle } from "../lib";
+import { Avatar, AvatarFallback, AvatarImage } from "../lib";
 import { PreviewContainer } from "./components/PreviewContainer";
 import { applyTheme } from "../lib/util";
-import { Badge } from "components/badge";
+import { Badge } from "../lib";
 import { TabsPreview } from "./components/TabsPreview";
 
 const App: Component = () => {

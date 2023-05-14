@@ -15,11 +15,7 @@ import type {
 import "./tabs.css";
 import { children, createEffect } from "solid-js";
 
-interface TabsProps extends ArkTabProps {
-  value: string;
-  // eslint-disable-next-line no-unused-vars
-  onChange: (details: { value: string }) => void;
-}
+interface TabsProps extends ArkTabProps {}
 
 export const Tabs = (props: TabsProps) => {
   const TabChildRender = () => {
