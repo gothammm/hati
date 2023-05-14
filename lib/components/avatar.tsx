@@ -17,7 +17,7 @@ export const Avatar = (props: AvatarProps) => {
           setShowFallback(true);
         });
         if (showFallback()) {
-          child.parentElement.removeChild(child);
+          child.parentElement?.removeChild(child);
         }
       }
       if (child.nodeName === "SPAN") {

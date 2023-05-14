@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "hati",
+  "version": "0.0.1",
+  "description": "UI Component Library built for Solid.js",
   "scripts": {
     "app:dev": "vite --config ./app/vite.config.ts",
     "app:build": "vite build --config ./app/vite.config.ts",
