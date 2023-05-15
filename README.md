@@ -23,6 +23,8 @@ $ pnpm install --save @gothammm/hati # or npm install --save @gothammm/hati
 
 ```tsx
 import type { Component } from "solid-js";
+// Import styles
+import "@gothammm/hati/styles.css";
 import { Button } from "@gothammm/hati";
 
 const MyComponent = (): Component => {
