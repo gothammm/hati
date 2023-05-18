@@ -33,9 +33,9 @@
   }
 
   .btn-outline {
-    @apply border border-input hover:bg-accent hover:text-accent-foreground;
+    @apply border border-input text-accent-foreground hover:bg-accent;
   }
   .btn-ghost {
-    @apply hover:bg-accent hover:text-accent-foreground;
+    @apply text-accent-foreground hover:bg-accent;
   }
 }

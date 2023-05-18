@@ -1,0 +1,59 @@
+@tailwind components;
+
+@layer components {
+  div:has(> div[data-scope="dialog"][data-part="container"][hidden]) {
+    display: none;
+  }
+  div:has(> div[data-scope="dialog"][data-part="container"]) {
+    @apply fixed inset-0 z-50 flex items-start justify-center sm:items-center;
+  }
+  div[data-scope="dialog"][data-part="backdrop"] {
+    @apply fixed 
+    inset-0 
+    z-50 
+    bg-background/80 
+    backdrop-blur-sm 
+    transition-all 
+    duration-100;
+  }
+  div[data-scope="dialog"][data-part="container"] {
+    @apply fixed 
+      z-50 
+      w-full 
+      gap-4 
+      rounded-b-lg 
+      border 
+      bg-background 
+      p-6 
+      shadow-lg
+      animate-in
+      sm:max-w-[425px] 
+      sm:rounded-lg 
+      sm:zoom-in-90;
+  }
+  div[data-scope="dialog"][hidden] {
+    display: none;
+  }
+  div[data-scope="dialog"][data-part="content"] .dialog-header {
+    @apply flex flex-col space-y-1.5 text-center sm:text-left;
+  }
+  h2[data-scope="dialog"][data-part="title"] {
+    @apply text-lg font-semibold leading-none tracking-tight text-primary;
+  }
+  p[data-scope="dialog"][data-part="description"] {
+    @apply text-sm text-muted-foreground;
+  }
+  .close-trigger {
+    @apply absolute 
+    right-4 
+    top-4 
+    rounded-sm 
+    text-foreground opacity-70 ring-offset-background 
+    transition-opacity hover:opacity-100
+    focus:outline-none
+    disabled:pointer-events-none;
+  }
+  .close-trigger svg {
+    @apply h-4 w-4;
+  }
+}

@@ -12,7 +12,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "../lib";
-
 import {
   AlertCircle,
   AlertTriangle,
@@ -29,6 +28,7 @@ import { PreviewContainer } from "./components/PreviewContainer";
 import { applyTheme } from "../lib/util";
 import { Badge } from "../lib";
 import { TabsPreview } from "./components/TabsPreview";
+import { DialogPreview } from "./components/DialogPreview";
 
 const App: Component = () => {
   const [theme, setTheme] = createSignal<"dark" | "light">("light");
@@ -85,6 +85,7 @@ const App: Component = () => {
             <Button variant="primary">Primary</Button>
             <Button variant="secondary">Secondary</Button>
             <Button variant="destructive">Destructive</Button>
+            <Button variant="ghost">Ghost</Button>
             <Button variant="outline">Outline</Button>
             <Button
               variant="primary"
@@ -170,9 +171,9 @@ const App: Component = () => {
           </div>
         </PreviewContainer>
         <PreviewContainer
-          id="accordion"
+          id="badge"
           classList={{
-            "col-span-3": true,
+            "col-span-2": true,
           }}
         >
           <h2 class="mb-2 text-xl font-medium">Badge</h2>
@@ -187,6 +188,7 @@ const App: Component = () => {
             </div>
           </div>
         </PreviewContainer>
+        <DialogPreview />
         <PreviewContainer
           id="accordion"
           classList={{
