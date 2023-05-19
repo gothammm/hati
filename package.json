@@ -4,6 +4,7 @@
   "description": "UI Component Library built for Solid.js",
   "scripts": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "prepare:local-package": "pnpm pack --pack-destination dist",
     "app:dev": "vite serve app",
     "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build app",
@@ -19,6 +20,11 @@
     "old:build": "vite build app",
     "old:serve": "vite preview app",
 >>>>>>> change task cmd
+=======
+    "app:dev": "vite serve app",
+    "app:build": "vite build app",
+    "app:serve": "vite preview app",
+>>>>>>> replace new site with old
     "build": "tsup",
     "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
