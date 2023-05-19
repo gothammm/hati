@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>Solid App</title>
+    <style>
+      body {
+        height: 100vh;
+      }
+    </style>
   </head>
-  <body>
+  <body class="bg-background font-sans">
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <main style="height: 100vh;" class="bg-background font-sans flex relative flex-col" id="root"></main>
 
     <script src="./index.tsx" type="module"></script>
   </body>
