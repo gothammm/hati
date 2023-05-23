@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+  div[data-section="md-wrapper"] {
+    @apply min-w-0 mx-auto max-w-2xl flex-auto px-4 xl:px-16 py-16 lg:max-w-4xl font-sans;
+  }
+  div[data-section="md-wrapper"] article h1 {
+    @apply font-normal text-4xl text-foreground scroll-mt-28 mb-4;
+  }
+  
+  div[data-section="md-wrapper"] article {
+    @apply max-w-none;
+  }
+
+  div[data-section="md-wrapper"] article p {
+    @apply mb-4 mt-8; 
+  }
+  
+}
