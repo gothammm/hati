@@ -7,9 +7,9 @@ export const Header: Component = () => {
   const [theme, setTheme] = createSignal<"dark" | "light">("light");
   return (
     <header class="header">
-      <h2>Hati</h2>
+      <a data-type="title" href="/">Hati</a>
       <nav>
-        <a href="#">Documentation</a>
+        <a href="/docs">Documentation</a>
         <a href="https://github.com/gothammm/hati" target="_blank">
           GitHub
         </a>

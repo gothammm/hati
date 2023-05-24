@@ -1,25 +1,34 @@
-import { Routes, Route } from "@solidjs/router";
+import { Routes, Route, Outlet } from "@solidjs/router";
 import { Header } from "./components/header";
 import { Home } from "./pages/home";
-import Hello from "./pages/hello.mdx";
-import { MDXWrapper } from "./components/mdx-wrapper";
 import { Sidebar } from "./components/sidebar";
+import Introduction from "./pages/docs/introduction.mdx";
+import GettingStarted from "./pages/docs/getting-started.mdx";
+import { MDXWrapper } from "./components/mdx-wrapper";
 
 export default function App() {
   return (
     <>
       <Header />
-      <main class="flex">
-        <Sidebar />
+      <main class="flex flex-1">
         <Routes>
           <Route
-            path="/button"
+            path="docs"
             component={() => (
-              <MDXWrapper>
-                <Hello />
-              </MDXWrapper>
+              <>
+                <Sidebar />
+                <MDXWrapper>
+                  <Outlet />
+                </MDXWrapper>
+              </>
             )}
-          />
+          >
+            <Route path="/" component={() => <Introduction />} />
+            <Route
+              path="/getting-started"
+              component={() => <GettingStarted />}
+            />
+          </Route>
           <Route path="/" component={Home} />
           <Route
             path="/about"

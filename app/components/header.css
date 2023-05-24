@@ -4,7 +4,7 @@
   .header {
     @apply sticky top-0 z-40 w-full border-b bg-background/95 shadow-sm backdrop-blur px-8 py-5 flex h-14 items-center;
   }
-  .header h2 {
+  .header a[data-type="title"] {
     @apply mr-6 hidden font-bold text-foreground sm:inline-block;
   }
   .header nav {

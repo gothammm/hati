@@ -2,18 +2,36 @@
 
 @layer components {
   div[data-section="md-wrapper"] {
-    @apply min-w-0 mx-auto max-w-2xl flex-auto px-4 xl:px-16 py-16 lg:max-w-4xl font-sans;
+    @apply mx-auto min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-4xl xl:px-16 text-foreground;
   }
   div[data-section="md-wrapper"] article h1 {
-    @apply font-normal text-4xl text-foreground scroll-mt-28 mb-4;
+    @apply mb-4 scroll-mt-28 text-4xl font-medium;
   }
-  
+
   div[data-section="md-wrapper"] article {
     @apply max-w-none;
   }
 
   div[data-section="md-wrapper"] article p {
-    @apply mb-4 mt-8; 
+    @apply mb-4 mt-8 font-light;
+  }
+
+  div[data-section="md-wrapper"] article a {
+    @apply inline-flex h-10 items-center justify-center rounded-md font-medium underline-offset-4 ring-offset-background transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  div[data-section="md-wrapper"] article h2 {
+    @apply mb-4 mt-12 scroll-mt-28 text-2xl font-medium;
+  }
+
+  div[data-section="md-wrapper"] article ul {
+    @apply list-disc pl-4 marker:text-slate-400;
+  }
+  div[data-section="md-wrapper"] article ul > li {
+    @apply pl-2;
   }
   
+  div[data-section="md-wrapper"] article button[data-type="action"] {
+    @apply mt-2;
+  }
 }
