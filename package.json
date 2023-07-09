@@ -70,7 +70,7 @@
     "vite-plugin-solid": "^2.7.0"
   },
   "peerDependencies": {
-    "@ark-ui/solid": "^0.3.0",
+    "@ark-ui/solid": "^0.3.0 || ^0.8.0",
     "solid-js": "^1.7.5"
   },
   "keywords": [
