@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -54,11 +54,11 @@ devDependencies:
     specifier: ^1.0.6
     version: 1.0.6(tailwindcss@3.3.2)
   tsup:
-    specifier: ^6.7.0
-    version: 6.7.0(postcss@8.4.25)(typescript@5.1.6)
+    specifier: ^7.0.0
+    version: 7.0.0(postcss@8.4.25)(typescript@5.1.6)
   tsup-preset-solid:
     specifier: ^0.1.8
-    version: 0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@6.7.0)
+    version: 0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@7.0.0)
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
@@ -2079,13 +2079,13 @@ packages:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
     dev: true
 
-  /bundle-require@4.0.1(esbuild@0.17.19):
+  /bundle-require@4.0.1(esbuild@0.18.11):
     resolution: {integrity: sha512-9NQkRHlNdNpDBGmLpngF3EFDcwodhMUuLz9PaWYciVcQF9SE4LFjM2DB/xV1Li5JiuDMv7ZUWuC3rGbqR0MAXQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.17'
     dependencies:
-      esbuild: 0.17.19
+      esbuild: 0.18.11
       load-tsconfig: 0.2.5
     dev: true
 
@@ -3450,23 +3450,6 @@ packages:
       postcss: 8.4.25
     dev: true
 
-  /postcss-load-config@3.1.4(postcss@8.4.25):
-    resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
-    engines: {node: '>= 10'}
-    peerDependencies:
-      postcss: '>=8.0.9'
-      ts-node: '>=9.0.0'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-      ts-node:
-        optional: true
-    dependencies:
-      lilconfig: 2.1.0
-      postcss: 8.4.25
-      yaml: 1.10.2
-    dev: true
-
   /postcss-load-config@4.0.1(postcss@8.4.25):
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
@@ -3968,13 +3951,13 @@ packages:
     resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
     dev: true
 
-  /tsup-preset-solid@0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@6.7.0):
+  /tsup-preset-solid@0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@7.0.0):
     resolution: {integrity: sha512-V5TZFEZY9emACO3AZvKyCRzdoyjUcuMEEbTGcJnCma7OVvGnSNVoewFff9g0CaveJ8cZcC3u2tW9gMaxmPZ71A==}
     peerDependencies:
       tsup: ^6.5.0
     dependencies:
       esbuild-plugin-solid: 0.5.0(esbuild@0.18.11)(solid-js@1.7.7)
-      tsup: 6.7.0(postcss@8.4.25)(typescript@5.1.6)
+      tsup: 7.0.0(postcss@8.4.25)(typescript@5.1.6)
       type-fest: 3.13.0
     transitivePeerDependencies:
       - esbuild
@@ -3982,9 +3965,9 @@ packages:
       - supports-color
     dev: true
 
-  /tsup@6.7.0(postcss@8.4.25)(typescript@5.1.6):
-    resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
-    engines: {node: '>=14.18'}
+  /tsup@7.0.0(postcss@8.4.25)(typescript@5.1.6):
+    resolution: {integrity: sha512-yYARDRkPq07mO3YUXTvF12ISwWQG57Odve8aFEgLdHyeGungxuKxb19yf9G0W8y59SZFkLnRj1gkoVk1gd5fbQ==}
+    engines: {node: '>=16.14'}
     hasBin: true
     peerDependencies:
       '@swc/core': ^1
@@ -3998,16 +3981,16 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 4.0.1(esbuild@0.17.19)
+      bundle-require: 4.0.1(esbuild@0.18.11)
       cac: 6.7.14
       chokidar: 3.5.3
       debug: 4.3.4
-      esbuild: 0.17.19
+      esbuild: 0.18.11
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
       postcss: 8.4.25
-      postcss-load-config: 3.1.4(postcss@8.4.25)
+      postcss-load-config: 4.0.1(postcss@8.4.25)
       resolve-from: 5.0.0
       rollup: 3.26.2
       source-map: 0.8.0-beta.0
@@ -4300,11 +4283,6 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-    dev: true
-
-  /yaml@1.10.2:
-    resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
-    engines: {node: '>= 6'}
     dev: true
 
   /yaml@2.3.1:
