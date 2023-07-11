@@ -114,6 +114,7 @@ devDependencies:
     version: 3.0.0
   prettier-plugin-tailwindcss:
 <<<<<<< HEAD
+<<<<<<< HEAD
     specifier: ^0.4.1
     version: 0.4.1(prettier@3.0.0)
   solid-js:
@@ -122,6 +123,10 @@ devDependencies:
 =======
     specifier: ^0.3.0
     version: 0.3.0(prettier@3.0.0)
+=======
+    specifier: ^0.4.0
+    version: 0.4.0(prettier@3.0.0)
+>>>>>>> chore(deps): update dependency prettier-plugin-tailwindcss to ^0.4.0
   solid-js:
     specifier: ^1.7.7
     version: 1.7.7
@@ -5492,12 +5497,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /prettier-plugin-tailwindcss@0.4.1(prettier@3.0.0):
     resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
 =======
   /prettier-plugin-tailwindcss@0.3.0(prettier@3.0.0):
     resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
 >>>>>>> chore:update deps
+=======
+  /prettier-plugin-tailwindcss@0.4.0(prettier@3.0.0):
+    resolution: {integrity: sha512-Rna0sDPETA0KNhMHlN8wxKNgfSa8mTl2hPPAGxnbv6tUcHT6J4RQmQ8TLXyhB7Dm5Von4iHloBxTyClYM6wT0A==}
+>>>>>>> chore(deps): update dependency prettier-plugin-tailwindcss to ^0.4.0
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
