@@ -3,9 +3,9 @@
   "version": "0.0.4",
   "description": "UI Component Library built for Solid.js",
   "scripts": {
-    "prepare:local-package": "pnpm build && pnpm pack --pack-destination dist && pnpm update",
+    "prepare:local-package": "pnpm pack --pack-destination dist",
     "app:dev": "vite serve app",
-    "app:build": "pnpm prepare:local-package && vite build app",
+    "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build app",
     "app:serve": "vite preview app",
     "build": "tsup",
     "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
