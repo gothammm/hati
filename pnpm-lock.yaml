@@ -1,11 +1,14 @@
 lockfileVersion: '6.1'
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 =======
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
 
 settings:
   autoInstallPeers: true
@@ -13,6 +16,7 @@ settings:
 
 devDependencies:
   '@ark-ui/solid':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     specifier: ^0.8.1
@@ -26,6 +30,8 @@ devDependencies:
 =======
 =======
 >>>>>>> chore(deps): update dependency @ark-ui/solid to ^0.8.0
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     specifier: ^0.3.0
     version: 0.3.0(solid-js@1.7.5)
   '@mdx-js/mdx':
@@ -81,38 +87,56 @@ devDependencies:
     specifier: ^0.8.2
     version: 0.8.2(solid-js@1.7.7)
 >>>>>>> chore:update deps
+=======
+    specifier: ^0.8.1
+    version: 0.8.1(solid-js@1.7.8)
+  '@gothammm/hati':
+    specifier: file:dist/gothammm-hati-0.0.4.tgz
+    version: file:dist/gothammm-hati-0.0.4.tgz(@ark-ui/solid@0.8.1)(solid-js@1.7.8)
+  '@solidjs/router':
+    specifier: ^0.8.2
+    version: 0.8.2(solid-js@1.7.8)
+>>>>>>> feat:pack and use hati for test app, update deps
   '@types/node':
-    specifier: ^20.4.1
-    version: 20.4.1
+    specifier: ^20.4.2
+    version: 20.4.2
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.0.0
-    version: 6.0.0(@typescript-eslint/parser@6.0.0)(eslint@8.44.0)(typescript@5.1.6)
+    specifier: ^5.62.0
+    version: 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@5.1.6)
   '@typescript-eslint/parser':
-    specifier: ^6.0.0
-    version: 6.0.0(eslint@8.44.0)(typescript@5.1.6)
+    specifier: ^5.62.0
+    version: 5.62.0(eslint@8.45.0)(typescript@5.1.6)
   autoprefixer:
     specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.25)
+    version: 10.4.14(postcss@8.4.26)
   esbuild:
-    specifier: ^0.18.11
-    version: 0.18.11
+    specifier: ^0.18.14
+    version: 0.18.14
   eslint:
-    specifier: ^8.44.0
-    version: 8.44.0
+    specifier: ^8.45.0
+    version: 8.45.0
   eslint-plugin-solid:
     specifier: ^0.12.1
-    version: 0.12.1(eslint@8.44.0)(typescript@5.1.6)
+    version: 0.12.1(eslint@8.45.0)(typescript@5.1.6)
   lucide-solid:
     specifier: ^0.259.0
+<<<<<<< HEAD
     version: 0.259.0(solid-js@1.7.7)
   postcss:
     specifier: ^8.4.25
     version: 8.4.25
 >>>>>>> chore:update deps
+=======
+    version: 0.259.0(solid-js@1.7.8)
+  postcss:
+    specifier: ^8.4.26
+    version: 8.4.26
+>>>>>>> feat:pack and use hati for test app, update deps
   prettier:
     specifier: ^3.0.0
     version: 3.0.0
   prettier-plugin-tailwindcss:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     specifier: ^0.4.1
@@ -131,11 +155,19 @@ devDependencies:
     specifier: ^1.7.7
     version: 1.7.7
 >>>>>>> chore:update deps
+=======
+    specifier: ^0.4.1
+    version: 0.4.1(prettier@3.0.0)
+  solid-js:
+    specifier: ^1.7.8
+    version: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
   tailwindcss-animate:
     specifier: ^1.0.6
+<<<<<<< HEAD
 <<<<<<< HEAD
     version: 1.0.6(tailwindcss@3.3.3)
   tsup:
@@ -146,17 +178,25 @@ devDependencies:
     version: 0.1.8(esbuild@0.18.14)(solid-js@1.7.8)(tsup@6.7.0)
 =======
     version: 1.0.6(tailwindcss@3.3.2)
+=======
+    version: 1.0.6(tailwindcss@3.3.3)
+>>>>>>> feat:pack and use hati for test app, update deps
   tsup:
     specifier: ^6.7.0
-    version: 6.7.0(postcss@8.4.25)(typescript@5.1.6)
+    version: 6.7.0(postcss@8.4.26)(typescript@5.1.6)
   tsup-preset-solid:
     specifier: ^0.1.8
+<<<<<<< HEAD
     version: 0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@6.7.0)
 >>>>>>> chore:update deps
+=======
+    version: 0.1.8(esbuild@0.18.14)(solid-js@1.7.8)(tsup@6.7.0)
+>>>>>>> feat:pack and use hati for test app, update deps
   typescript:
     specifier: ^5.1.6
     version: 5.1.6
   vite:
+<<<<<<< HEAD
 <<<<<<< HEAD
     specifier: ^4.4.4
     version: 4.4.4(@types/node@20.4.2)
@@ -174,7 +214,12 @@ devDependencies:
 =======
     specifier: ^4.4.2
     version: 4.4.2(@types/node@20.4.1)
+=======
+    specifier: ^4.4.4
+    version: 4.4.4(@types/node@20.4.2)
+>>>>>>> feat:pack and use hati for test app, update deps
   vite-plugin-dts:
+<<<<<<< HEAD
 <<<<<<< HEAD
     specifier: ^2.3.0
     version: 2.3.0(@types/node@18.16.13)(rollup@3.22.0)(vite@4.3.8)
@@ -182,10 +227,18 @@ devDependencies:
     specifier: ^3.2.0
     version: 3.2.0(@types/node@20.4.1)(typescript@5.1.6)
 >>>>>>> chore:update deps
+=======
+    specifier: ^3.3.1
+    version: 3.3.1(@types/node@20.4.2)(typescript@5.1.6)(vite@4.4.4)
+>>>>>>> feat:pack and use hati for test app, update deps
   vite-plugin-solid:
     specifier: ^2.7.0
+<<<<<<< HEAD
     version: 2.7.0(solid-js@1.7.7)(vite@4.4.2)
 >>>>>>> chore:update deps
+=======
+    version: 2.7.0(solid-js@1.7.8)(vite@4.4.4)
+>>>>>>> feat:pack and use hati for test app, update deps
 
 packages:
 
@@ -209,6 +262,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@ark-ui/solid@0.8.1(solid-js@1.7.8):
     resolution: {integrity: sha512-YZCsrIvtH6qsk+yZLqySltTgvVNwIFcvGmc3pR26pCqrtbQLZ4RQT/W8tVgN3xfoMXMxZmP8x5YE0o1X+Crsqw==}
 =======
@@ -218,6 +272,10 @@ packages:
 >>>>>>> chore:update deps
     resolution: {integrity: sha512-G4m4OMweDpysOPMiK+F57XLIWN/L8MkoT36up83orfhaIk9dDmJNxmBfeIZHPfnGo45I5uSfOBbiY0CQpL18EA==}
 >>>>>>> chore(deps): update dependency @ark-ui/solid to ^0.8.0
+=======
+  /@ark-ui/solid@0.8.1(solid-js@1.7.8):
+    resolution: {integrity: sha512-YZCsrIvtH6qsk+yZLqySltTgvVNwIFcvGmc3pR26pCqrtbQLZ4RQT/W8tVgN3xfoMXMxZmP8x5YE0o1X+Crsqw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     peerDependencies:
       solid-js: '>=1.6.0'
     dependencies:
@@ -245,6 +303,7 @@ packages:
       '@zag-js/slider': 0.10.5
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@zag-js/solid': 0.10.5(solid-js@1.7.8)
 =======
       '@zag-js/solid': 0.10.5(solid-js@1.7.5)
@@ -252,6 +311,9 @@ packages:
 =======
       '@zag-js/solid': 0.10.5(solid-js@1.7.7)
 >>>>>>> chore:update deps
+=======
+      '@zag-js/solid': 0.10.5(solid-js@1.7.8)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@zag-js/splitter': 0.10.5
       '@zag-js/switch': 0.10.5
       '@zag-js/tabs': 0.10.5
@@ -259,6 +321,7 @@ packages:
       '@zag-js/toast': 0.10.5
       '@zag-js/tooltip': 0.10.5
       '@zag-js/types': 0.10.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       solid-js: 1.7.8
@@ -276,6 +339,9 @@ packages:
     transitivePeerDependencies:
       - react-streaming
       - vite
+=======
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
 <<<<<<< HEAD
@@ -291,6 +357,7 @@ packages:
       '@babel/highlight': 7.22.5
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@babel/compat-data@7.22.9:
     resolution: {integrity: sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==}
@@ -308,10 +375,20 @@ packages:
   /@babel/core@7.22.8:
     resolution: {integrity: sha512-75+KxFB4CZqYRXjx4NlR4J7yGvKumBuZTmV4NV6v09dVXXkuYVYLT68N6HCzLvfJ+fWCxQsntNzKwwIXL4bHnw==}
 >>>>>>> chore:update deps
+=======
+  /@babel/compat-data@7.22.9:
+    resolution: {integrity: sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==}
+    engines: {node: '>=6.9.0'}
+    dev: true
+
+  /@babel/core@7.22.9:
+    resolution: {integrity: sha512-G2EgeufBcYw27U4hhoIwFcgc1XU7TlXJ3mv04oOv1WCuo900U/anZSPzEqNjwdjgffkk2Gs0AN0dW1CKVLcG7w==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@babel/code-frame': 7.22.5
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/generator': 7.22.9
       '@babel/helper-compilation-targets': 7.22.9(@babel/core@7.22.9)
@@ -321,27 +398,40 @@ packages:
       '@babel/helper-compilation-targets': 7.22.6(@babel/core@7.22.8)
       '@babel/helper-module-transforms': 7.22.5
 >>>>>>> chore:update deps
+=======
+      '@babel/generator': 7.22.9
+      '@babel/helper-compilation-targets': 7.22.9(@babel/core@7.22.9)
+      '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helpers': 7.22.6
       '@babel/parser': 7.22.7
       '@babel/template': 7.22.5
       '@babel/traverse': 7.22.8
       '@babel/types': 7.22.5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       '@nicolo-ribaudo/semver-v6': 6.3.3
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       convert-source-map: 1.9.0
       debug: 4.3.4
       gensync: 1.0.0-beta.2
       json5: 2.2.3
 <<<<<<< HEAD
+<<<<<<< HEAD
       semver: 6.3.1
 =======
 >>>>>>> chore:update deps
+=======
+      semver: 6.3.1
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@babel/generator@7.22.9:
     resolution: {integrity: sha512-KtLMbmicyuK2Ak/FTCJVbDnkN1SlT8/kceFTiuDiiRUUSMnHMidxSCdG4ndkTOHHpoomWe/4xkvHkEOncwjYIw==}
@@ -349,6 +439,10 @@ packages:
   /@babel/generator@7.22.7:
     resolution: {integrity: sha512-p+jPjMG+SI8yvIaxGgeW24u7q9+5+TGpZh8/CuB7RhBKd7RCy8FayNEFNNKrNK/eUcY/4ExQqLmyrvBXKsIcwQ==}
 >>>>>>> chore:update deps
+=======
+  /@babel/generator@7.22.9:
+    resolution: {integrity: sha512-KtLMbmicyuK2Ak/FTCJVbDnkN1SlT8/kceFTiuDiiRUUSMnHMidxSCdG4ndkTOHHpoomWe/4xkvHkEOncwjYIw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.5
@@ -365,16 +459,22 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@babel/helper-compilation-targets@7.22.9(@babel/core@7.22.9):
     resolution: {integrity: sha512-7qYrNM6HjpnPHJbopxmb8hSPoZ0gsX8IvUS32JGVoy+pU9e5N0nLr1VjJoR6kA4d9dmGLxNYOjeB8sUDal2WMw==}
 =======
   /@babel/helper-compilation-targets@7.22.6(@babel/core@7.22.8):
     resolution: {integrity: sha512-534sYEqWD9VfUm3IPn2SLcH4Q3P86XL+QvqdC7ZsFrzyyPF3T4XGiVghF6PTYNdWg6pXuoqXxNQAhbYeEInTzA==}
 >>>>>>> chore:update deps
+=======
+  /@babel/helper-compilation-targets@7.22.9(@babel/core@7.22.9):
+    resolution: {integrity: sha512-7qYrNM6HjpnPHJbopxmb8hSPoZ0gsX8IvUS32JGVoy+pU9e5N0nLr1VjJoR6kA4d9dmGLxNYOjeB8sUDal2WMw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/compat-data': 7.22.9
       '@babel/core': 7.22.9
@@ -389,29 +489,43 @@ packages:
 =======
       '@babel/compat-data': 7.22.6
       '@babel/core': 7.22.8
+=======
+      '@babel/compat-data': 7.22.9
+      '@babel/core': 7.22.9
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-validator-option': 7.22.5
-      '@nicolo-ribaudo/semver-v6': 6.3.3
       browserslist: 4.21.9
       lru-cache: 5.1.1
+      semver: 6.3.1
     dev: true
 
+<<<<<<< HEAD
   /@babel/helper-create-class-features-plugin@7.22.6(@babel/core@7.22.8):
     resolution: {integrity: sha512-iwdzgtSiBxF6ni6mzVnZCF3xt5qE6cEA0J7nFt8QOAWZ0zjCFceEgpn3vtb2V7WFR6QzP2jmIFOHMTRo7eNJjQ==}
 >>>>>>> chore:update deps
+=======
+  /@babel/helper-create-class-features-plugin@7.22.9(@babel/core@7.22.9):
+    resolution: {integrity: sha512-Pwyi89uO4YrGKxL/eNJ8lfEH55DnRloGPOseaA8NFNL6jAUnn+KccaISiFazCj5IolPPDjGSdzQzXVzODVRqUQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/core': 7.22.9
 =======
       '@babel/core': 7.22.8
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-annotate-as-pure': 7.22.5
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-member-expression-to-functions': 7.22.5
       '@babel/helper-optimise-call-expression': 7.22.5
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.9)
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
@@ -425,6 +539,12 @@ packages:
     transitivePeerDependencies:
       - supports-color
 >>>>>>> chore:update deps
+=======
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.9)
+      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
+      '@babel/helper-split-export-declaration': 7.22.6
+      semver: 6.3.1
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@babel/helper-environment-visitor@7.22.5:
@@ -469,25 +589,35 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@babel/helper-module-transforms@7.22.9(@babel/core@7.22.9):
     resolution: {integrity: sha512-t+WA2Xn5K+rTeGtC8jCsdAH52bjggG5TKRuRrAGNM/mjIbO4GxvlLMFOEz9wXY5I2XQ60PMFsAG2WIcG82dQMQ==}
 =======
   /@babel/helper-module-transforms@7.22.5:
     resolution: {integrity: sha512-+hGKDt/Ze8GFExiVHno/2dvG5IdstpzCq0y4Qc9OJ25D4q3pKfiIP/4Vp3/JvhDkLKsDK2api3q3fpIgiIF5bw==}
 >>>>>>> chore:update deps
+=======
+  /@babel/helper-module-transforms@7.22.9(@babel/core@7.22.9):
+    resolution: {integrity: sha512-t+WA2Xn5K+rTeGtC8jCsdAH52bjggG5TKRuRrAGNM/mjIbO4GxvlLMFOEz9wXY5I2XQ60PMFsAG2WIcG82dQMQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/core': 7.22.9
 =======
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-module-imports': 7.22.5
       '@babel/helper-simple-access': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
       '@babel/helper-validator-identifier': 7.22.5
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       '@babel/template': 7.22.5
@@ -496,6 +626,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@babel/helper-optimise-call-expression@7.22.5:
@@ -511,16 +643,22 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@babel/helper-replace-supers@7.22.9(@babel/core@7.22.9):
     resolution: {integrity: sha512-LJIKvvpgPOPUThdYqcX6IXRuIcTkcAub0IaDRGCZH0p5GPUp7PhRU9QVgFcDDd51BaPkk77ZjqFwh6DZTAEmGg==}
 =======
   /@babel/helper-replace-supers@7.22.5:
     resolution: {integrity: sha512-aLdNM5I3kdI/V9xGNyKSF3X/gTyMUBohTZ+/3QdQKAA9vxIiy12E+8E2HoOP1/DjeqU+g6as35QHJNMDDYpuCg==}
 >>>>>>> chore:update deps
+=======
+  /@babel/helper-replace-supers@7.22.9(@babel/core@7.22.9):
+    resolution: {integrity: sha512-LJIKvvpgPOPUThdYqcX6IXRuIcTkcAub0IaDRGCZH0p5GPUp7PhRU9QVgFcDDd51BaPkk77ZjqFwh6DZTAEmGg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-environment-visitor': 7.22.5
@@ -536,6 +674,12 @@ packages:
     transitivePeerDependencies:
       - supports-color
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-environment-visitor': 7.22.5
+      '@babel/helper-member-expression-to-functions': 7.22.5
+      '@babel/helper-optimise-call-expression': 7.22.5
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@babel/helper-simple-access@7.22.5:
@@ -603,15 +747,20 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@babel/plugin-syntax-jsx@7.22.5(@babel/core@7.22.9):
 =======
   /@babel/plugin-syntax-jsx@7.22.5(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+  /@babel/plugin-syntax-jsx@7.22.5(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-gvyP4hZrgrs/wWMaocvxZ44Hw0b3W8Pe+cMxc8V1ULQ07oh8VNbIRaoD1LRZVTvD+0nieDKjfgKg89sD7rrKrg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-plugin-utils': 7.22.5
@@ -625,11 +774,19 @@ packages:
 
   /@babel/plugin-syntax-typescript@7.22.5(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
+  /@babel/plugin-syntax-typescript@7.22.5(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-1mS2o03i7t1c6VzH6fdQ3OA8tcEIxwG18zIPRp+UY1Ihv6W+XZzBCVxExF9upussPXJ0xE9XRHwMoNs1ep/nRQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-plugin-utils': 7.22.5
@@ -643,11 +800,19 @@ packages:
 
   /@babel/plugin-transform-modules-commonjs@7.22.5(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
+  /@babel/plugin-transform-modules-commonjs@7.22.5(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-B4pzOXj+ONRmuaQTg05b3y/4DuFz3WcCNAXPLb2Q0GT0TrGKGxNKV4jwsXts+StaM0LQczZbOpj8o1DLPDJIiA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.9)
@@ -660,19 +825,27 @@ packages:
 =======
       '@babel/core': 7.22.8
       '@babel/helper-module-transforms': 7.22.5
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-simple-access': 7.22.5
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@babel/plugin-transform-typescript@7.22.5(@babel/core@7.22.8):
     resolution: {integrity: sha512-SMubA9S7Cb5sGSFFUlqxyClTA9zWJ8qGQrppNUm05LtFuN1ELRFNndkix4zUJrC9F+YivWwa1dHMSyo0e0N9dA==}
 >>>>>>> chore:update deps
+=======
+  /@babel/plugin-transform-typescript@7.22.9(@babel/core@7.22.9):
+    resolution: {integrity: sha512-BnVR1CpKiuD0iobHPaM1iLvcwPYN2uVFAqoLVSpEDKWuOikoCv5HbKLxclhKYUXlWkX86DoZGtqI4XhbOsyrMg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-annotate-as-pure': 7.22.5
@@ -684,21 +857,27 @@ packages:
   /@babel/preset-typescript@7.22.5(@babel/core@7.22.9):
 =======
       '@babel/core': 7.22.8
+=======
+      '@babel/core': 7.22.9
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-class-features-plugin': 7.22.9(@babel/core@7.22.9)
       '@babel/helper-plugin-utils': 7.22.5
-      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.8)
-    transitivePeerDependencies:
-      - supports-color
+      '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.9)
     dev: true
 
+<<<<<<< HEAD
   /@babel/preset-typescript@7.22.5(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+  /@babel/preset-typescript@7.22.5(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-YbPaal9LxztSGhmndR46FmAbkJ/1fAsw293tSU+I5E5h+cnJ3d4GTwyUgGYmOXJYdGA+uNePle4qbaRzj2NISQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-plugin-utils': 7.22.5
@@ -716,6 +895,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-validator-option': 7.22.5
+      '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.9)
+      '@babel/plugin-transform-modules-commonjs': 7.22.5(@babel/core@7.22.9)
+      '@babel/plugin-transform-typescript': 7.22.9(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@babel/template@7.22.5:
@@ -733,10 +920,14 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.5
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@babel/generator': 7.22.9
 =======
       '@babel/generator': 7.22.7
 >>>>>>> chore:update deps
+=======
+      '@babel/generator': 7.22.9
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/helper-environment-visitor': 7.22.5
       '@babel/helper-function-name': 7.22.5
       '@babel/helper-hoist-variables': 7.22.5
@@ -758,24 +949,6 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@brillout/import@0.2.3:
-    resolution: {integrity: sha512-1T8WlD75eeFSMrptGy8jiLHmfHgMmSjWvLOIUvHmSVZt+6k0eQqYUoK4KbmE4T9pVLIfxvZSOm2D68VEqKRHRw==}
-    dev: true
-
-  /@brillout/json-serializer@0.5.3:
-    resolution: {integrity: sha512-IxlOMD5gOM0WfFGdeR98jHKiC82Ad1tUnSjvLS5jnRkfMEKBI+YzHA32Umw8W3Ccp5N4fNEX229BW6RaRpxRWQ==}
-    dev: true
-
-  /@brillout/picocolors@1.0.4:
-    resolution: {integrity: sha512-rhZBVyrRCb53T9xIGoEjZQ6O4Um3XQWcQ1z2VL2eBQBtJYCsABUUNE/isqbnts3XD1sAkisDF2L3OjJeIgrznQ==}
-    dev: true
-
-  /@brillout/vite-plugin-import-build@0.2.18:
-    resolution: {integrity: sha512-sedZNrqIboHCeSnN7hwo34xRyP8egfMHcifixQ2YGNnQVb93884drTVE3b0vlSGz7LWumVDochKuHdWQljup9A==}
-    dependencies:
-      '@brillout/import': 0.2.3
-    dev: true
-
   /@esbuild/android-arm64@0.17.19:
     resolution: {integrity: sha512-KBMWvEZooR7+kzY0BtbTQn0OAYY7CsiydT63pVEaPtVYF0hXbUaOyZog37DKxK7NF3XacBJOpYT4adIJh+avxA==}
     engines: {node: '>=12'}
@@ -786,12 +959,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/android-arm64@0.18.14:
     resolution: {integrity: sha512-rZ2v+Luba5/3D6l8kofWgTnqE+qsC/L5MleKIKFyllHTKHrNBMqeRCnZI1BtRx8B24xMYxeU32iIddRQqMsOsg==}
 =======
   /@esbuild/android-arm64@0.18.11:
     resolution: {integrity: sha512-snieiq75Z1z5LJX9cduSAjUr7vEI1OdlzFPMw0HH5YI7qQHDd3qs+WZoMrWYDsfRJSq36lIA6mfZBkvL46KoIw==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/android-arm64@0.18.14:
+    resolution: {integrity: sha512-rZ2v+Luba5/3D6l8kofWgTnqE+qsC/L5MleKIKFyllHTKHrNBMqeRCnZI1BtRx8B24xMYxeU32iIddRQqMsOsg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [android]
@@ -809,12 +987,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/android-arm@0.18.14:
     resolution: {integrity: sha512-blODaaL+lngG5bdK/t4qZcQvq2BBqrABmYwqPPcS5VRxrCSGHb9R/rA3fqxh7R18I7WU4KKv+NYkt22FDfalcg==}
 =======
   /@esbuild/android-arm@0.18.11:
     resolution: {integrity: sha512-q4qlUf5ucwbUJZXF5tEQ8LF7y0Nk4P58hOsGk3ucY0oCwgQqAnqXVbUuahCddVHfrxmpyewRpiTHwVHIETYu7Q==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/android-arm@0.18.14:
+    resolution: {integrity: sha512-blODaaL+lngG5bdK/t4qZcQvq2BBqrABmYwqPPcS5VRxrCSGHb9R/rA3fqxh7R18I7WU4KKv+NYkt22FDfalcg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm]
     os: [android]
@@ -832,12 +1015,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/android-x64@0.18.14:
     resolution: {integrity: sha512-qSwh8y38QKl+1Iqg+YhvCVYlSk3dVLk9N88VO71U4FUjtiSFylMWK3Ugr8GC6eTkkP4Tc83dVppt2n8vIdlSGg==}
 =======
   /@esbuild/android-x64@0.18.11:
     resolution: {integrity: sha512-iPuoxQEV34+hTF6FT7om+Qwziv1U519lEOvekXO9zaMMlT9+XneAhKL32DW3H7okrCOBQ44BMihE8dclbZtTuw==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/android-x64@0.18.14:
+    resolution: {integrity: sha512-qSwh8y38QKl+1Iqg+YhvCVYlSk3dVLk9N88VO71U4FUjtiSFylMWK3Ugr8GC6eTkkP4Tc83dVppt2n8vIdlSGg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [android]
@@ -855,12 +1043,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/darwin-arm64@0.18.14:
     resolution: {integrity: sha512-9Hl2D2PBeDYZiNbnRKRWuxwHa9v5ssWBBjisXFkVcSP5cZqzZRFBUWEQuqBHO4+PKx4q4wgHoWtfQ1S7rUqJ2Q==}
 =======
   /@esbuild/darwin-arm64@0.18.11:
     resolution: {integrity: sha512-Gm0QkI3k402OpfMKyQEEMG0RuW2LQsSmI6OeO4El2ojJMoF5NLYb3qMIjvbG/lbMeLOGiW6ooU8xqc+S0fgz2w==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/darwin-arm64@0.18.14:
+    resolution: {integrity: sha512-9Hl2D2PBeDYZiNbnRKRWuxwHa9v5ssWBBjisXFkVcSP5cZqzZRFBUWEQuqBHO4+PKx4q4wgHoWtfQ1S7rUqJ2Q==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [darwin]
@@ -878,12 +1071,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/darwin-x64@0.18.14:
     resolution: {integrity: sha512-ZnI3Dg4ElQ6tlv82qLc/UNHtFsgZSKZ7KjsUNAo1BF1SoYDjkGKHJyCrYyWjFecmXpvvG/KJ9A/oe0H12odPLQ==}
 =======
   /@esbuild/darwin-x64@0.18.11:
     resolution: {integrity: sha512-N15Vzy0YNHu6cfyDOjiyfJlRJCB/ngKOAvoBf1qybG3eOq0SL2Lutzz9N7DYUbb7Q23XtHPn6lMDF6uWbGv9Fw==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/darwin-x64@0.18.14:
+    resolution: {integrity: sha512-ZnI3Dg4ElQ6tlv82qLc/UNHtFsgZSKZ7KjsUNAo1BF1SoYDjkGKHJyCrYyWjFecmXpvvG/KJ9A/oe0H12odPLQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
@@ -901,12 +1099,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/freebsd-arm64@0.18.14:
     resolution: {integrity: sha512-h3OqR80Da4oQCIa37zl8tU5MwHQ7qgPV0oVScPfKJK21fSRZEhLE4IIVpmcOxfAVmqjU6NDxcxhYaM8aDIGRLw==}
 =======
   /@esbuild/freebsd-arm64@0.18.11:
     resolution: {integrity: sha512-atEyuq6a3omEY5qAh5jIORWk8MzFnCpSTUruBgeyN9jZq1K/QI9uke0ATi3MHu4L8c59CnIi4+1jDKMuqmR71A==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/freebsd-arm64@0.18.14:
+    resolution: {integrity: sha512-h3OqR80Da4oQCIa37zl8tU5MwHQ7qgPV0oVScPfKJK21fSRZEhLE4IIVpmcOxfAVmqjU6NDxcxhYaM8aDIGRLw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [freebsd]
@@ -924,12 +1127,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/freebsd-x64@0.18.14:
     resolution: {integrity: sha512-ha4BX+S6CZG4BoH9tOZTrFIYC1DH13UTCRHzFc3GWX74nz3h/N6MPF3tuR3XlsNjMFUazGgm35MPW5tHkn2lzQ==}
 =======
   /@esbuild/freebsd-x64@0.18.11:
     resolution: {integrity: sha512-XtuPrEfBj/YYYnAAB7KcorzzpGTvOr/dTtXPGesRfmflqhA4LMF0Gh/n5+a9JBzPuJ+CGk17CA++Hmr1F/gI0Q==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/freebsd-x64@0.18.14:
+    resolution: {integrity: sha512-ha4BX+S6CZG4BoH9tOZTrFIYC1DH13UTCRHzFc3GWX74nz3h/N6MPF3tuR3XlsNjMFUazGgm35MPW5tHkn2lzQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [freebsd]
@@ -947,12 +1155,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-arm64@0.18.14:
     resolution: {integrity: sha512-IXORRe22In7U65NZCzjwAUc03nn8SDIzWCnfzJ6t/8AvGx5zBkcLfknI+0P+hhuftufJBmIXxdSTbzWc8X/V4w==}
 =======
   /@esbuild/linux-arm64@0.18.11:
     resolution: {integrity: sha512-c6Vh2WS9VFKxKZ2TvJdA7gdy0n6eSy+yunBvv4aqNCEhSWVor1TU43wNRp2YLO9Vng2G+W94aRz+ILDSwAiYog==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-arm64@0.18.14:
+    resolution: {integrity: sha512-IXORRe22In7U65NZCzjwAUc03nn8SDIzWCnfzJ6t/8AvGx5zBkcLfknI+0P+hhuftufJBmIXxdSTbzWc8X/V4w==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [linux]
@@ -970,12 +1183,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-arm@0.18.14:
     resolution: {integrity: sha512-5+7vehI1iqru5WRtJyU2XvTOvTGURw3OZxe3YTdE9muNNIdmKAVmSHpB3Vw2LazJk2ifEdIMt/wTWnVe5V98Kg==}
 =======
   /@esbuild/linux-arm@0.18.11:
     resolution: {integrity: sha512-Idipz+Taso/toi2ETugShXjQ3S59b6m62KmLHkJlSq/cBejixmIydqrtM2XTvNCywFl3VC7SreSf6NV0i6sRyg==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-arm@0.18.14:
+    resolution: {integrity: sha512-5+7vehI1iqru5WRtJyU2XvTOvTGURw3OZxe3YTdE9muNNIdmKAVmSHpB3Vw2LazJk2ifEdIMt/wTWnVe5V98Kg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm]
     os: [linux]
@@ -993,12 +1211,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-ia32@0.18.14:
     resolution: {integrity: sha512-BfHlMa0nibwpjG+VXbOoqJDmFde4UK2gnW351SQ2Zd4t1N3zNdmUEqRkw/srC1Sa1DRBE88Dbwg4JgWCbNz/FQ==}
 =======
   /@esbuild/linux-ia32@0.18.11:
     resolution: {integrity: sha512-S3hkIF6KUqRh9n1Q0dSyYcWmcVa9Cg+mSoZEfFuzoYXXsk6196qndrM+ZiHNwpZKi3XOXpShZZ+9dfN5ykqjjw==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-ia32@0.18.14:
+    resolution: {integrity: sha512-BfHlMa0nibwpjG+VXbOoqJDmFde4UK2gnW351SQ2Zd4t1N3zNdmUEqRkw/srC1Sa1DRBE88Dbwg4JgWCbNz/FQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [linux]
@@ -1016,12 +1239,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-loong64@0.18.14:
     resolution: {integrity: sha512-j2/Ex++DRUWIAaUDprXd3JevzGtZ4/d7VKz+AYDoHZ3HjJzCyYBub9CU1wwIXN+viOP0b4VR3RhGClsvyt/xSw==}
 =======
   /@esbuild/linux-loong64@0.18.11:
     resolution: {integrity: sha512-MRESANOoObQINBA+RMZW+Z0TJWpibtE7cPFnahzyQHDCA9X9LOmGh68MVimZlM9J8n5Ia8lU773te6O3ILW8kw==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-loong64@0.18.14:
+    resolution: {integrity: sha512-j2/Ex++DRUWIAaUDprXd3JevzGtZ4/d7VKz+AYDoHZ3HjJzCyYBub9CU1wwIXN+viOP0b4VR3RhGClsvyt/xSw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [loong64]
     os: [linux]
@@ -1039,12 +1267,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-mips64el@0.18.14:
     resolution: {integrity: sha512-qn2+nc+ZCrJmiicoAnJXJJkZWt8Nwswgu1crY7N+PBR8ChBHh89XRxj38UU6Dkthl2yCVO9jWuafZ24muzDC/A==}
 =======
   /@esbuild/linux-mips64el@0.18.11:
     resolution: {integrity: sha512-qVyPIZrXNMOLYegtD1u8EBccCrBVshxMrn5MkuFc3mEVsw7CCQHaqZ4jm9hbn4gWY95XFnb7i4SsT3eflxZsUg==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-mips64el@0.18.14:
+    resolution: {integrity: sha512-qn2+nc+ZCrJmiicoAnJXJJkZWt8Nwswgu1crY7N+PBR8ChBHh89XRxj38UU6Dkthl2yCVO9jWuafZ24muzDC/A==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [mips64el]
     os: [linux]
@@ -1062,12 +1295,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-ppc64@0.18.14:
     resolution: {integrity: sha512-aGzXzd+djqeEC5IRkDKt3kWzvXoXC6K6GyYKxd+wsFJ2VQYnOWE954qV2tvy5/aaNrmgPTb52cSCHFE+Z7Z0yg==}
 =======
   /@esbuild/linux-ppc64@0.18.11:
     resolution: {integrity: sha512-T3yd8vJXfPirZaUOoA9D2ZjxZX4Gr3QuC3GztBJA6PklLotc/7sXTOuuRkhE9W/5JvJP/K9b99ayPNAD+R+4qQ==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-ppc64@0.18.14:
+    resolution: {integrity: sha512-aGzXzd+djqeEC5IRkDKt3kWzvXoXC6K6GyYKxd+wsFJ2VQYnOWE954qV2tvy5/aaNrmgPTb52cSCHFE+Z7Z0yg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [ppc64]
     os: [linux]
@@ -1085,12 +1323,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-riscv64@0.18.14:
     resolution: {integrity: sha512-8C6vWbfr0ygbAiMFLS6OPz0BHvApkT2gCboOGV76YrYw+sD/MQJzyITNsjZWDXJwPu9tjrFQOVG7zijRzBCnLw==}
 =======
   /@esbuild/linux-riscv64@0.18.11:
     resolution: {integrity: sha512-evUoRPWiwuFk++snjH9e2cAjF5VVSTj+Dnf+rkO/Q20tRqv+644279TZlPK8nUGunjPAtQRCj1jQkDAvL6rm2w==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-riscv64@0.18.14:
+    resolution: {integrity: sha512-8C6vWbfr0ygbAiMFLS6OPz0BHvApkT2gCboOGV76YrYw+sD/MQJzyITNsjZWDXJwPu9tjrFQOVG7zijRzBCnLw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
@@ -1108,12 +1351,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-s390x@0.18.14:
     resolution: {integrity: sha512-G/Lf9iu8sRMM60OVGOh94ZW2nIStksEcITkXdkD09/T6QFD/o+g0+9WVyR/jajIb3A0LvBJ670tBnGe1GgXMgw==}
 =======
   /@esbuild/linux-s390x@0.18.11:
     resolution: {integrity: sha512-/SlRJ15XR6i93gRWquRxYCfhTeC5PdqEapKoLbX63PLCmAkXZHY2uQm2l9bN0oPHBsOw2IswRZctMYS0MijFcg==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-s390x@0.18.14:
+    resolution: {integrity: sha512-G/Lf9iu8sRMM60OVGOh94ZW2nIStksEcITkXdkD09/T6QFD/o+g0+9WVyR/jajIb3A0LvBJ670tBnGe1GgXMgw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [s390x]
     os: [linux]
@@ -1131,12 +1379,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/linux-x64@0.18.14:
     resolution: {integrity: sha512-TBgStYBQaa3EGhgqIDM+ECnkreb0wkcKqL7H6m+XPcGUoU4dO7dqewfbm0mWEQYH3kzFHrzjOFNpSAVzDZRSJw==}
 =======
   /@esbuild/linux-x64@0.18.11:
     resolution: {integrity: sha512-xcncej+wF16WEmIwPtCHi0qmx1FweBqgsRtEL1mSHLFR6/mb3GEZfLQnx+pUDfRDEM4DQF8dpXIW7eDOZl1IbA==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/linux-x64@0.18.14:
+    resolution: {integrity: sha512-TBgStYBQaa3EGhgqIDM+ECnkreb0wkcKqL7H6m+XPcGUoU4dO7dqewfbm0mWEQYH3kzFHrzjOFNpSAVzDZRSJw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [linux]
@@ -1154,12 +1407,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/netbsd-x64@0.18.14:
     resolution: {integrity: sha512-stvCcjyCQR2lMTroqNhAbvROqRjxPEq0oQ380YdXxA81TaRJEucH/PzJ/qsEtsHgXlWFW6Ryr/X15vxQiyRXVg==}
 =======
   /@esbuild/netbsd-x64@0.18.11:
     resolution: {integrity: sha512-aSjMHj/F7BuS1CptSXNg6S3M4F3bLp5wfFPIJM+Km2NfIVfFKhdmfHF9frhiCLIGVzDziggqWll0B+9AUbud/Q==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/netbsd-x64@0.18.14:
+    resolution: {integrity: sha512-stvCcjyCQR2lMTroqNhAbvROqRjxPEq0oQ380YdXxA81TaRJEucH/PzJ/qsEtsHgXlWFW6Ryr/X15vxQiyRXVg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
@@ -1177,12 +1435,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/openbsd-x64@0.18.14:
     resolution: {integrity: sha512-apAOJF14CIsN5ht1PA57PboEMsNV70j3FUdxLmA2liZ20gEQnfTG5QU0FhENo5nwbTqCB2O3WDsXAihfODjHYw==}
 =======
   /@esbuild/openbsd-x64@0.18.11:
     resolution: {integrity: sha512-tNBq+6XIBZtht0xJGv7IBB5XaSyvYPCm1PxJ33zLQONdZoLVM0bgGqUrXnJyiEguD9LU4AHiu+GCXy/Hm9LsdQ==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/openbsd-x64@0.18.14:
+    resolution: {integrity: sha512-apAOJF14CIsN5ht1PA57PboEMsNV70j3FUdxLmA2liZ20gEQnfTG5QU0FhENo5nwbTqCB2O3WDsXAihfODjHYw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [openbsd]
@@ -1200,12 +1463,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/sunos-x64@0.18.14:
     resolution: {integrity: sha512-fYRaaS8mDgZcGybPn2MQbn1ZNZx+UXFSUoS5Hd2oEnlsyUcr/l3c6RnXf1bLDRKKdLRSabTmyCy7VLQ7VhGdOQ==}
 =======
   /@esbuild/sunos-x64@0.18.11:
     resolution: {integrity: sha512-kxfbDOrH4dHuAAOhr7D7EqaYf+W45LsAOOhAet99EyuxxQmjbk8M9N4ezHcEiCYPaiW8Dj3K26Z2V17Gt6p3ng==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/sunos-x64@0.18.14:
+    resolution: {integrity: sha512-fYRaaS8mDgZcGybPn2MQbn1ZNZx+UXFSUoS5Hd2oEnlsyUcr/l3c6RnXf1bLDRKKdLRSabTmyCy7VLQ7VhGdOQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [sunos]
@@ -1223,12 +1491,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/win32-arm64@0.18.14:
     resolution: {integrity: sha512-1c44RcxKEJPrVj62XdmYhxXaU/V7auELCmnD+Ri+UCt+AGxTvzxl9uauQhrFso8gj6ZV1DaORV0sT9XSHOAk8Q==}
 =======
   /@esbuild/win32-arm64@0.18.11:
     resolution: {integrity: sha512-Sh0dDRyk1Xi348idbal7lZyfSkjhJsdFeuC13zqdipsvMetlGiFQNdO+Yfp6f6B4FbyQm7qsk16yaZk25LChzg==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/win32-arm64@0.18.14:
+    resolution: {integrity: sha512-1c44RcxKEJPrVj62XdmYhxXaU/V7auELCmnD+Ri+UCt+AGxTvzxl9uauQhrFso8gj6ZV1DaORV0sT9XSHOAk8Q==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [arm64]
     os: [win32]
@@ -1246,12 +1519,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/win32-ia32@0.18.14:
     resolution: {integrity: sha512-EXAFttrdAxZkFQmpvcAQ2bywlWUsONp/9c2lcfvPUhu8vXBBenCXpoq9YkUvVP639ld3YGiYx0YUQ6/VQz3Maw==}
 =======
   /@esbuild/win32-ia32@0.18.11:
     resolution: {integrity: sha512-o9JUIKF1j0rqJTFbIoF4bXj6rvrTZYOrfRcGyL0Vm5uJ/j5CkBD/51tpdxe9lXEDouhRgdr/BYzUrDOvrWwJpg==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/win32-ia32@0.18.14:
+    resolution: {integrity: sha512-EXAFttrdAxZkFQmpvcAQ2bywlWUsONp/9c2lcfvPUhu8vXBBenCXpoq9YkUvVP639ld3YGiYx0YUQ6/VQz3Maw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [ia32]
     os: [win32]
@@ -1269,12 +1547,17 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@esbuild/win32-x64@0.18.14:
     resolution: {integrity: sha512-K0QjGbcskx+gY+qp3v4/940qg8JitpXbdxFhRDA1aYoNaPff88+aEwoq45aqJ+ogpxQxmU0ZTjgnrQD/w8iiUg==}
 =======
   /@esbuild/win32-x64@0.18.11:
     resolution: {integrity: sha512-rQI4cjLHd2hGsM1LqgDI7oOCYbQ6IBOVsX9ejuRMSze0GqXUG2ekwiKkiBU1pRGSeCqFFHxTrcEydB2Hyoz9CA==}
 >>>>>>> chore:update deps
+=======
+  /@esbuild/win32-x64@0.18.14:
+    resolution: {integrity: sha512-K0QjGbcskx+gY+qp3v4/940qg8JitpXbdxFhRDA1aYoNaPff88+aEwoq45aqJ+ogpxQxmU0ZTjgnrQD/w8iiUg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
@@ -1283,20 +1566,28 @@ packages:
     optional: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@eslint-community/eslint-utils@4.4.0(eslint@8.45.0):
 =======
   /@eslint-community/eslint-utils@4.4.0(eslint@8.44.0):
 >>>>>>> chore:update deps
+=======
+  /@eslint-community/eslint-utils@4.4.0(eslint@8.45.0):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       eslint: 8.45.0
 =======
       eslint: 8.44.0
 >>>>>>> chore:update deps
+=======
+      eslint: 8.45.0
+>>>>>>> feat:pack and use hati for test app, update deps
       eslint-visitor-keys: 3.4.1
     dev: true
 
@@ -1312,10 +1603,14 @@ packages:
       ajv: 6.12.6
       debug: 4.3.4
 <<<<<<< HEAD
+<<<<<<< HEAD
       espree: 9.6.1
 =======
       espree: 9.6.0
 >>>>>>> chore:update deps
+=======
+      espree: 9.6.1
+>>>>>>> feat:pack and use hati for test app, update deps
       globals: 13.20.0
       ignore: 5.2.4
       import-fresh: 3.3.0
@@ -1403,11 +1698,14 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@microsoft/api-extractor-model@7.27.4(@types/node@20.4.2):
     resolution: {integrity: sha512-HjqQFmuGPOS20rtnu+9Jj0QrqZyR59E+piUWXPMZTTn4jaZI+4UmsHSf3Id8vyueAhOBH2cgwBuRTE5R+MfSMw==}
 =======
 =======
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /@mdx-js/mdx@2.3.0:
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
     dependencies:
@@ -1457,17 +1755,25 @@ packages:
 =======
 =======
   /@microsoft/api-extractor-model@7.27.4(@types/node@20.4.1):
+=======
+  /@microsoft/api-extractor-model@7.27.4(@types/node@20.4.2):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-HjqQFmuGPOS20rtnu+9Jj0QrqZyR59E+piUWXPMZTTn4jaZI+4UmsHSf3Id8vyueAhOBH2cgwBuRTE5R+MfSMw==}
 >>>>>>> chore:update deps
     dependencies:
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
+<<<<<<< HEAD
       '@rushstack/node-core-library': 3.59.5(@types/node@20.4.1)
 >>>>>>> chore:update deps
+=======
+      '@rushstack/node-core-library': 3.59.5(@types/node@20.4.2)
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - '@types/node'
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@microsoft/api-extractor@7.36.2(@types/node@20.4.2):
     resolution: {integrity: sha512-ONe/jOmTZtR3OjTkWKHmeSV1P5ozbHDxHr6FV3KoWyIl1AcPk2B3dmvVBM5eOlZB5bgM66nxcWQTZ6msQo2hHg==}
@@ -1480,13 +1786,21 @@ packages:
 =======
   /@microsoft/api-extractor@7.36.1(@types/node@20.4.1):
     resolution: {integrity: sha512-2SPp1jq6wDY5IOsRLUv/4FxngslctBZJlztAJ3uWpCAwqKQG7ESdL3DhEza+StbYLtBQmu1Pk6q1Vkhl7qD/bg==}
+=======
+  /@microsoft/api-extractor@7.36.2(@types/node@20.4.2):
+    resolution: {integrity: sha512-ONe/jOmTZtR3OjTkWKHmeSV1P5ozbHDxHr6FV3KoWyIl1AcPk2B3dmvVBM5eOlZB5bgM66nxcWQTZ6msQo2hHg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.27.4(@types/node@20.4.1)
+      '@microsoft/api-extractor-model': 7.27.4(@types/node@20.4.2)
       '@microsoft/tsdoc': 0.14.2
       '@microsoft/tsdoc-config': 0.16.2
+<<<<<<< HEAD
       '@rushstack/node-core-library': 3.59.5(@types/node@20.4.1)
 >>>>>>> chore:update deps
+=======
+      '@rushstack/node-core-library': 3.59.5(@types/node@20.4.2)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@rushstack/rig-package': 0.4.0
       '@rushstack/ts-command-line': 4.15.1
       colors: 1.2.5
@@ -1512,11 +1826,6 @@ packages:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
     dev: true
 
-  /@nicolo-ribaudo/semver-v6@6.3.3:
-    resolution: {integrity: sha512-3Yc1fUTs69MG/uZbJlLSI3JISMn2UV2rg+1D/vROUqZyh3l6iYHCs7GMp+M40ZD7yOdDbYjJcU1oTJhrc+dGKg==}
-    hasBin: true
-    dev: true
-
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1539,6 +1848,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@rollup/pluginutils@5.0.2(rollup@3.22.0):
 =======
   /@polka/url@1.0.0-next.21:
@@ -1551,6 +1861,9 @@ packages:
 =======
   /@rollup/pluginutils@5.0.2(rollup@3.26.2):
 >>>>>>> chore:update deps
+=======
+  /@rollup/pluginutils@5.0.2:
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1563,17 +1876,24 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       rollup: 3.22.0
 =======
       rollup: 3.26.2
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@rushstack/node-core-library@3.59.5(@types/node@20.4.2):
 =======
   /@rushstack/node-core-library@3.59.5(@types/node@20.4.1):
 >>>>>>> chore:update deps
+=======
+  /@rushstack/node-core-library@3.59.5(@types/node@20.4.2):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-1IpV7LufrI1EoVO8hYsb3t6L8L+yp40Sa0OaOV2CIu1zx4e6ZeVNaVIEXFgMXBKdGXkAh21MnCaIzlDNpG6ZQw==}
     peerDependencies:
       '@types/node': '*'
@@ -1582,10 +1902,14 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@types/node': 20.4.2
 =======
       '@types/node': 20.4.1
 >>>>>>> chore:update deps
+=======
+      '@types/node': 20.4.2
+>>>>>>> feat:pack and use hati for test app, update deps
       colors: 1.2.5
       fs-extra: 7.0.1
       import-lazy: 4.0.0
@@ -1612,19 +1936,27 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@solidjs/router@0.8.2(solid-js@1.7.8):
 =======
   /@solidjs/router@0.8.2(solid-js@1.7.7):
 >>>>>>> chore:update deps
+=======
+  /@solidjs/router@0.8.2(solid-js@1.7.8):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-gUKW+LZqxtX6y/Aw6JKyy4gQ9E7dLqp513oB9pSYJR1HM5c56Pf7eijzyXX+b3WuXig18Cxqah4tMtF0YGu80w==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       solid-js: 1.7.8
 =======
       solid-js: 1.7.7
 >>>>>>> chore:update deps
+=======
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@swc/helpers@0.5.1:
@@ -1745,16 +2077,25 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
+<<<<<<< HEAD
   /@types/node@20.4.1:
     resolution: {integrity: sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==}
 >>>>>>> chore:update deps
+<<<<<<< HEAD
 >>>>>>> chore:update deps
+=======
+=======
+  /@types/node@20.4.2:
+    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@types/semver@7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1765,6 +2106,8 @@ packages:
 >>>>>>> chore:update deps
 =======
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /@types/unist@2.0.6:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
@@ -1785,9 +2128,14 @@ packages:
     resolution: {integrity: sha512-xuv6ghKGoiq856Bww/yVYnXGsKa588kY3M0XK7uUW/3fJNNULKRfZfSBkMTSpqGG/8ZCXCadfh8G/z/B4aqS/A==}
     engines: {node: ^16.0.0 || >=18.0.0}
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+  /@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.45.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-TiZzBSJja/LbhNPvk6yc0JrX9XqhQ0hdh6M2svYfsHGejaKFIAGd9MQ+ERIMzLGlN/kZoYIgdxFV0PuljTKXag==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+>>>>>>> feat:pack and use hati for test app, update deps
     peerDependencies:
-      '@typescript-eslint/parser': ^6.0.0 || ^6.0.0-alpha
-      eslint: ^7.0.0 || ^8.0.0
+      '@typescript-eslint/parser': ^5.0.0
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
       typescript:
@@ -1796,10 +2144,14 @@ packages:
       '@eslint-community/regexpp': 4.5.1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       '@typescript-eslint/parser': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
       '@typescript-eslint/utils': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
+<<<<<<< HEAD
       debug: 4.3.4
       eslint: 8.45.0
 =======
@@ -1820,17 +2172,21 @@ packages:
       eslint: 8.44.0
       grapheme-splitter: 1.0.4
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+      debug: 4.3.4
+      eslint: 8.45.0
+>>>>>>> feat:pack and use hati for test app, update deps
       graphemer: 1.4.0
       ignore: 5.2.4
-      natural-compare: 1.4.0
       natural-compare-lite: 1.4.0
       semver: 7.5.4
-      ts-api-utils: 1.0.1(typescript@5.1.6)
+      tsutils: 3.21.0(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@typescript-eslint/parser@5.62.0(eslint@8.45.0)(typescript@5.1.6):
@@ -1845,13 +2201,19 @@ packages:
     resolution: {integrity: sha512-TNaufYSPrr1U8n+3xN+Yp9g31vQDJqhXzzPSHfQDLcaO4tU+mCfODPxCwf4H530zo7aUBE3QIdxCXamEnG04Tg==}
     engines: {node: ^16.0.0 || >=18.0.0}
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+  /@typescript-eslint/parser@5.62.0(eslint@8.45.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-VlJEV0fOQ7BExOsHYAGrgbEiZoi8D+Bl2+f6V2RrXerRSylnp+ZBHmPvaIa8cz0Ajx7WO7Z5RqfgYg7ED1nRhA==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+>>>>>>> feat:pack and use hati for test app, update deps
     peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       '@typescript-eslint/scope-manager': 5.62.0
@@ -1872,11 +2234,19 @@ packages:
       debug: 4.3.4
       eslint: 8.44.0
 >>>>>>> chore:update deps
+=======
+      '@typescript-eslint/scope-manager': 5.62.0
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.1.6)
+      debug: 4.3.4
+      eslint: 8.45.0
+>>>>>>> feat:pack and use hati for test app, update deps
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@typescript-eslint/scope-manager@5.62.0:
     resolution: {integrity: sha512-VXuvVvZeQCQb5Zgf4HAxc04q5j+WrNAtNh9OwCsCgpKqESMTu3tF/jhZ3xG6T4NZwWl65Bg8KuS2uEvhSfLl0w==}
@@ -1915,13 +2285,27 @@ packages:
     resolution: {integrity: sha512-ah6LJvLgkoZ/pyJ9GAdFkzeuMZ8goV6BH7eC9FPmojrnX9yNCIsfjB+zYcnex28YO3RFvBkV6rMV6WpIqkPvoQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+  /@typescript-eslint/scope-manager@5.62.0:
+    resolution: {integrity: sha512-VXuvVvZeQCQb5Zgf4HAxc04q5j+WrNAtNh9OwCsCgpKqESMTu3tF/jhZ3xG6T4NZwWl65Bg8KuS2uEvhSfLl0w==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dependencies:
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/visitor-keys': 5.62.0
+    dev: true
+
+  /@typescript-eslint/type-utils@5.62.0(eslint@8.45.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-xsSQreu+VnfbqQpW5vnCJdq1Z3Q0U31qiWmRhr98ONQmcp/yhiPJFPq8MXiJVLiksmOKSjIldZzkebzHuCGzew==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+>>>>>>> feat:pack and use hati for test app, update deps
     peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
+      eslint: '*'
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.1.6)
@@ -1942,11 +2326,19 @@ packages:
       eslint: 8.44.0
       ts-api-utils: 1.0.1(typescript@5.1.6)
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
+=======
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.1.6)
+      '@typescript-eslint/utils': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
+      debug: 4.3.4
+      eslint: 8.45.0
+      tsutils: 3.21.0(typescript@5.1.6)
+>>>>>>> feat:pack and use hati for test app, update deps
       typescript: 5.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@typescript-eslint/types@5.62.0:
     resolution: {integrity: sha512-87NVngcbVXUahrRTqIK27gD2t5Cu1yuCXxbLcFtCzZGlfyVWWh8mLHkoxzjsB6DDNnvdL+fW8MiwPEJyGJQDgQ==}
@@ -1969,6 +2361,15 @@ packages:
   /@typescript-eslint/typescript-estree@5.61.0(typescript@5.1.6):
     resolution: {integrity: sha512-Fud90PxONnnLZ36oR5ClJBLTLfU4pIWBmnvGwTbEa2cXIqj70AEDEmOmpkFComjBZ/037ueKrOdHuYmSFVD7Rw==}
 >>>>>>> chore:update deps
+=======
+  /@typescript-eslint/types@5.62.0:
+    resolution: {integrity: sha512-87NVngcbVXUahrRTqIK27gD2t5Cu1yuCXxbLcFtCzZGlfyVWWh8mLHkoxzjsB6DDNnvdL+fW8MiwPEJyGJQDgQ==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@typescript-eslint/typescript-estree@5.62.0(typescript@5.1.6):
+    resolution: {integrity: sha512-CmcQ6uY7b9y694lKdRB8FEel7JbU/40iSAPomu++SjLMntB+2Leay2LO6i8VnJk58MtE9/nQSFIH6jpyRWyYzA==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -1977,12 +2378,17 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/visitor-keys': 5.62.0
 =======
       '@typescript-eslint/types': 5.61.0
       '@typescript-eslint/visitor-keys': 5.61.0
 >>>>>>> chore:update deps
+=======
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/visitor-keys': 5.62.0
+>>>>>>> feat:pack and use hati for test app, update deps
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
@@ -1993,6 +2399,7 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /@typescript-eslint/utils@5.62.0(eslint@8.45.0)(typescript@5.1.6):
@@ -2024,10 +2431,15 @@ packages:
   /@typescript-eslint/utils@5.61.0(eslint@8.44.0)(typescript@5.1.6):
     resolution: {integrity: sha512-mV6O+6VgQmVE6+xzlA91xifndPW9ElFW8vbSF0xCT/czPXVhwDewKila1jOyRwa9AE19zKnrr7Cg5S3pJVrTWQ==}
 >>>>>>> chore:update deps
+=======
+  /@typescript-eslint/utils@5.62.0(eslint@8.45.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-n8oxjeb5aIbPFEtmQxQYOLI0i9n5ySBEY/ZEHHZqKQSFnxio1rv6dthascc9dLuwrL0RC5mPCxB7vnAVGAYWAQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.45.0)
       '@types/json-schema': 7.0.12
@@ -2080,12 +2492,15 @@ packages:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.44.0)
+=======
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.45.0)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@types/json-schema': 7.0.12
       '@types/semver': 7.5.0
-      '@typescript-eslint/scope-manager': 6.0.0
-      '@typescript-eslint/types': 6.0.0
-      '@typescript-eslint/typescript-estree': 6.0.0(typescript@5.1.6)
-      eslint: 8.44.0
+      '@typescript-eslint/scope-manager': 5.62.0
+      '@typescript-eslint/types': 5.62.0
+      '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.1.6)
+      eslint: 8.45.0
       eslint-scope: 5.1.1
       semver: 7.5.4
     transitivePeerDependencies:
@@ -2093,36 +2508,39 @@ packages:
       - typescript
     dev: true
 
+<<<<<<< HEAD
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
   /@typescript-eslint/visitor-keys@5.61.0:
     resolution: {integrity: sha512-50XQ5VdbWrX06mQXhy93WywSFZZGsv3EOjq+lqp6WC2t+j3mb6A9xYVdrRxafvK88vg9k9u+CT4l6D8PEatjKg==}
+=======
+  /@typescript-eslint/visitor-keys@5.62.0:
+    resolution: {integrity: sha512-07ny+LHRzQXepkGg6w0mFY41fVUNBrL2Roj/++7V1txKugfjm/Ci/qSND03r2RhlJhJYMcTn9AhhSSqQp0Ysyw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      '@typescript-eslint/types': 5.61.0
+      '@typescript-eslint/types': 5.62.0
       eslint-visitor-keys: 3.4.1
     dev: true
 
-  /@typescript-eslint/visitor-keys@6.0.0:
-    resolution: {integrity: sha512-cvJ63l8c0yXdeT5POHpL0Q1cZoRcmRKFCtSjNGJxPkcP571EfZMcNbzWAc7oK3D1dRzm/V5EwtkANTZxqvuuUA==}
-    engines: {node: ^16.0.0 || >=18.0.0}
+  /@volar/language-core@1.9.0:
+    resolution: {integrity: sha512-+PTRrGanAD2PxqMty0ZC46xhgW5BWzb67RLHhZyB3Im4+eMXsKlYjFUt7Z8ZCwTWQQOnj8NQ6gSgUEoOTwAHrQ==}
     dependencies:
-      '@typescript-eslint/types': 6.0.0
-      eslint-visitor-keys: 3.4.1
+      '@volar/source-map': 1.9.0
     dev: true
 
-  /@volar/language-core@1.8.0:
-    resolution: {integrity: sha512-ZHTvZPM3pEbOOuaq+ybNz5TQlHUqPQPK0G1+SonvApGq0e3qgGijjhtL5T7hsCtUEmxfix8FrAuCH14tMBOhTg==}
-    dependencies:
-      '@volar/source-map': 1.8.0
-    dev: true
-
+<<<<<<< HEAD
   /@volar/source-map@1.8.0:
     resolution: {integrity: sha512-d35aV0yFkIrkynRSKgrN5hgbMv6ekkFvcJsJGmOZ8UEjqLStto9zq7RSvpp6/PZ7/pa4Gn1f6K1qDt0bq0oUew==}
 >>>>>>> chore:update deps
+=======
+  /@volar/source-map@1.9.0:
+    resolution: {integrity: sha512-TQWLY8ozUOHBHTMC2pHZsNbtM25Q9QCEwAL8JFR/gmR9Yv0d9qup/gQdd5sDI7RmoPYKD+gqjLrbM4Ib41QSJQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     dependencies:
       muggle-string: 0.3.1
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@volar/typescript@1.9.0:
     resolution: {integrity: sha512-B8X4/H6V93uD7zu5VCw05eB0Ukcc39SFKsZoeylkAk2sJ50oaJLpajnQ8Ov4c+FnVQ6iPA6Xy1qdWoWJjh6xEg==}
@@ -2134,6 +2552,12 @@ packages:
     dependencies:
       '@volar/language-core': 1.8.0
 >>>>>>> chore:update deps
+=======
+  /@volar/typescript@1.9.0:
+    resolution: {integrity: sha512-B8X4/H6V93uD7zu5VCw05eB0Ukcc39SFKsZoeylkAk2sJ50oaJLpajnQ8Ov4c+FnVQ6iPA6Xy1qdWoWJjh6xEg==}
+    dependencies:
+      '@volar/language-core': 1.9.0
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /@vue/compiler-core@3.3.4:
@@ -2153,12 +2577,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@vue/language-core@1.8.5(typescript@5.1.6):
     resolution: {integrity: sha512-DKQNiNQzNV7nrkZQujvjfX73zqKdj2+KoM4YeKl+ft3f+crO3JB4ycPnmgaRMNX/ULJootdQPGHKFRl5cXxwaw==}
 =======
   /@vue/language-core@1.8.4(typescript@5.1.6):
     resolution: {integrity: sha512-pnNtNcJVfkGYluW0vsVO+Y1gyX+eA0voaS7+1JOhCp5zKeCaL/PAmGYOgfvwML62neL+2H8pnhY7sffmrGpEhw==}
 >>>>>>> chore:update deps
+=======
+  /@vue/language-core@1.8.5(typescript@5.1.6):
+    resolution: {integrity: sha512-DKQNiNQzNV7nrkZQujvjfX73zqKdj2+KoM4YeKl+ft3f+crO3JB4ycPnmgaRMNX/ULJootdQPGHKFRl5cXxwaw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -2166,12 +2595,17 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       '@volar/language-core': 1.9.0
       '@volar/source-map': 1.9.0
 =======
       '@volar/language-core': 1.8.0
       '@volar/source-map': 1.8.0
 >>>>>>> chore:update deps
+=======
+      '@volar/language-core': 1.9.0
+      '@volar/source-map': 1.9.0
+>>>>>>> feat:pack and use hati for test app, update deps
       '@vue/compiler-dom': 3.3.4
       '@vue/reactivity': 3.3.4
       '@vue/shared': 3.3.4
@@ -2192,6 +2626,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /@vue/typescript@1.8.5(typescript@5.1.6):
     resolution: {integrity: sha512-domFBbNr3PEcjGBeB+cmgUM3cI6pJsJezguIUKZ1rphkfIkICyoMjCd3TitoP32yo2KABLiaXcGFzgFfQf6B3w==}
     dependencies:
@@ -2204,6 +2639,13 @@ packages:
       '@volar/typescript': 1.8.0
       '@vue/language-core': 1.8.4(typescript@5.1.6)
 >>>>>>> chore:update deps
+=======
+  /@vue/typescript@1.8.5(typescript@5.1.6):
+    resolution: {integrity: sha512-domFBbNr3PEcjGBeB+cmgUM3cI6pJsJezguIUKZ1rphkfIkICyoMjCd3TitoP32yo2KABLiaXcGFzgFfQf6B3w==}
+    dependencies:
+      '@volar/typescript': 1.9.0
+      '@vue/language-core': 1.8.5(typescript@5.1.6)
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -2952,6 +3394,7 @@ packages:
       '@zag-js/utils': 0.10.5
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /@zag-js/solid@0.10.5(solid-js@1.7.8):
 =======
@@ -3001,6 +3444,9 @@ packages:
 =======
   /@zag-js/solid@0.10.5(solid-js@1.7.7):
 >>>>>>> chore:update deps
+=======
+  /@zag-js/solid@0.10.5(solid-js@1.7.8):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-Pal286F+3jKLd6w1z7R5SdBaS+2copdO8QAtUPfbSKh0WBGDUyZsVszi1lg38yYhIg92yo4gD02Kks2ocL9axw==}
     peerDependencies:
       solid-js: '>=1.1.3'
@@ -3009,6 +3455,7 @@ packages:
       '@zag-js/store': 0.10.5
       '@zag-js/types': 0.10.5
       hyphenate-style-name: 1.0.4
+<<<<<<< HEAD
 <<<<<<< HEAD
       solid-js: 1.7.8
     dev: true
@@ -3026,6 +3473,9 @@ packages:
 =======
       solid-js: 1.7.7
 >>>>>>> chore:update deps
+=======
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
 <<<<<<< HEAD
@@ -3274,13 +3724,32 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.2.0
-      es-abstract: 1.21.2
+      es-abstract: 1.22.1
       es-shim-unscopables: 1.0.0
     dev: true
 
+<<<<<<< HEAD
   /autoprefixer@10.4.14(postcss@8.4.25):
 >>>>>>> chore:update deps
+<<<<<<< HEAD
 >>>>>>> chore:update deps
+=======
+=======
+  /arraybuffer.prototype.slice@1.0.1:
+    resolution: {integrity: sha512-09x0ZWFEjj4WD8PDbykUwo3t9arLn8NIzmmYEJFpYekOAQjpkGSyrQhNoRTcwwcFRu+ycWF78QZ63oWTqSjBcw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      array-buffer-byte-length: 1.0.0
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      get-intrinsic: 1.2.1
+      is-array-buffer: 3.0.2
+      is-shared-array-buffer: 1.0.2
+    dev: true
+
+  /autoprefixer@10.4.14(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -3288,6 +3757,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.9
+<<<<<<< HEAD
 <<<<<<< HEAD
       caniuse-lite: 1.0.30001516
       fraction.js: 4.2.0
@@ -3301,6 +3771,13 @@ packages:
       picocolors: 1.0.0
       postcss: 8.4.25
 >>>>>>> chore:update deps
+=======
+      caniuse-lite: 1.0.30001516
+      fraction.js: 4.2.0
+      normalize-range: 0.1.2
+      picocolors: 1.0.0
+      postcss: 8.4.26
+>>>>>>> feat:pack and use hati for test app, update deps
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -3310,14 +3787,19 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /babel-plugin-jsx-dom-expressions@0.36.10(@babel/core@7.22.9):
 =======
   /babel-plugin-jsx-dom-expressions@0.36.10(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+  /babel-plugin-jsx-dom-expressions@0.36.10(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-QA2k/14WGw+RgcGGnEuLWwnu4em6CGhjeXtjvgOYyFHYS2a+CzPeaVQHDOlfuiBcjq/3hWMspHMIMnPEOIzdBg==}
     peerDependencies:
       '@babel/core': ^7.20.12
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/helper-module-imports': 7.18.6
@@ -3327,20 +3809,30 @@ packages:
       '@babel/helper-module-imports': 7.18.6
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.8)
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      '@babel/helper-module-imports': 7.18.6
+      '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/types': 7.22.5
       html-entities: 2.3.3
       validate-html-nesting: 1.2.2
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /babel-preset-solid@1.7.7(@babel/core@7.22.9):
 =======
   /babel-preset-solid@1.7.7(@babel/core@7.22.8):
 >>>>>>> chore:update deps
+=======
+  /babel-preset-solid@1.7.7(@babel/core@7.22.9):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-tdxVzx3kgcIjNXAOmGRbzIhFBPeJjSakiN9yM+IYdL/+LtXNnbGqb0Va5tJb8Sjbk+QVEriovCyuzB5T7jeTvg==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       babel-plugin-jsx-dom-expressions: 0.36.10(@babel/core@7.22.9)
@@ -3348,6 +3840,10 @@ packages:
       '@babel/core': 7.22.8
       babel-plugin-jsx-dom-expressions: 0.36.10(@babel/core@7.22.8)
 >>>>>>> chore:update deps
+=======
+      '@babel/core': 7.22.9
+      babel-plugin-jsx-dom-expressions: 0.36.10(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /bail@2.0.2:
@@ -3389,18 +3885,19 @@ packages:
     hasBin: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       caniuse-lite: 1.0.30001516
       electron-to-chromium: 1.4.464
 =======
       caniuse-lite: 1.0.30001514
       electron-to-chromium: 1.4.454
 >>>>>>> chore:update deps
+=======
+      caniuse-lite: 1.0.30001516
+      electron-to-chromium: 1.4.464
+>>>>>>> feat:pack and use hati for test app, update deps
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
-    dev: true
-
-  /buffer-from@1.1.2:
-    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
     dev: true
 
   /bundle-require@4.0.1(esbuild@0.17.19):
@@ -3436,12 +3933,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /caniuse-lite@1.0.30001516:
     resolution: {integrity: sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==}
 =======
   /caniuse-lite@1.0.30001514:
     resolution: {integrity: sha512-ENcIpYBmwAAOm/V2cXgM7rZUrKKaqisZl4ZAI520FIkqGXUxJjmaIssbRW5HVVR5tyV6ygTLIm15aU8LUmQSaQ==}
 >>>>>>> chore:update deps
+=======
+  /caniuse-lite@1.0.30001516:
+    resolution: {integrity: sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==}
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /ccount@2.0.1:
@@ -3632,12 +4134,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /electron-to-chromium@1.4.464:
     resolution: {integrity: sha512-guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==}
 =======
   /electron-to-chromium@1.4.454:
     resolution: {integrity: sha512-pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==}
 >>>>>>> chore:update deps
+=======
+  /electron-to-chromium@1.4.464:
+    resolution: {integrity: sha512-guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==}
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /es-abstract@1.22.1:
@@ -3683,10 +4190,13 @@ packages:
       typed-array-length: 1.0.4
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.11
+<<<<<<< HEAD
     dev: true
 
   /es-module-lexer@0.10.5:
     resolution: {integrity: sha512-+7IwY/kiGAacQfY+YBhKMvEmyAJnw5grTUgjG85Pe7vcUI/6b7pZjZG8nQ7+48YhzEAEqrEgD2dCz/JIK+AYvw==}
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /es-set-tostringtag@2.0.1:
@@ -3714,21 +4224,29 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /esbuild-plugin-solid@0.5.0(esbuild@0.18.14)(solid-js@1.7.8):
 =======
   /esbuild-plugin-solid@0.5.0(esbuild@0.18.11)(solid-js@1.7.7):
 >>>>>>> chore:update deps
+=======
+  /esbuild-plugin-solid@0.5.0(esbuild@0.18.14)(solid-js@1.7.8):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-ITK6n+0ayGFeDVUZWNMxX+vLsasEN1ILrg4pISsNOQ+mq4ljlJJiuXotInd+HE0MzwTcA9wExT1yzDE2hsqPsg==}
     peerDependencies:
       esbuild: '>=0.12'
       solid-js: '>= 1.0'
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/core': 7.22.9
       '@babel/preset-typescript': 7.22.5(@babel/core@7.22.9)
       babel-preset-solid: 1.7.7(@babel/core@7.22.9)
       esbuild: 0.18.14
       solid-js: 1.7.8
+<<<<<<< HEAD
 =======
       '@babel/core': 7.22.8
       '@babel/preset-typescript': 7.22.5(@babel/core@7.22.8)
@@ -3736,6 +4254,8 @@ packages:
       esbuild: 0.18.11
       solid-js: 1.7.7
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3771,17 +4291,25 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /esbuild@0.18.14:
     resolution: {integrity: sha512-uNPj5oHPYmj+ZhSQeYQVFZ+hAlJZbAGOmmILWIqrGvPVlNLbyOvU5Bu6Woi8G8nskcx0vwY0iFoMPrzT86Ko+w==}
 =======
   /esbuild@0.18.11:
     resolution: {integrity: sha512-i8u6mQF0JKJUlGR3OdFLKldJQMMs8OqM9Cc3UCi9XXziJ9WERM5bfkHaEAy0YAvPRMgqSW55W7xYn84XtEFTtA==}
 >>>>>>> chore:update deps
+=======
+  /esbuild@0.18.14:
+    resolution: {integrity: sha512-uNPj5oHPYmj+ZhSQeYQVFZ+hAlJZbAGOmmILWIqrGvPVlNLbyOvU5Bu6Woi8G8nskcx0vwY0iFoMPrzT86Ko+w==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       '@esbuild/android-arm': 0.18.14
       '@esbuild/android-arm64': 0.18.14
       '@esbuild/android-x64': 0.18.14
@@ -3804,6 +4332,7 @@ packages:
       '@esbuild/win32-arm64': 0.18.14
       '@esbuild/win32-ia32': 0.18.14
       '@esbuild/win32-x64': 0.18.14
+<<<<<<< HEAD
 =======
       '@esbuild/android-arm': 0.18.11
       '@esbuild/android-arm64': 0.18.11
@@ -3828,6 +4357,8 @@ packages:
       '@esbuild/win32-ia32': 0.18.11
       '@esbuild/win32-x64': 0.18.11
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /escalade@3.1.1:
@@ -3846,15 +4377,20 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /eslint-plugin-solid@0.12.1(eslint@8.45.0)(typescript@5.1.6):
 =======
   /eslint-plugin-solid@0.12.1(eslint@8.44.0)(typescript@5.1.6):
 >>>>>>> chore:update deps
+=======
+  /eslint-plugin-solid@0.12.1(eslint@8.45.0)(typescript@5.1.6):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-fM0sEg9PcS1mcNbWklwc+W/lOv1/XyEwXf53HmFFy4GOA8E3u41h8JW+hc+Vv1m3kh01umKoTalOTET08zKdAQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@typescript-eslint/utils': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
       eslint: 8.45.0
@@ -3862,6 +4398,10 @@ packages:
       '@typescript-eslint/utils': 5.61.0(eslint@8.44.0)(typescript@5.1.6)
       eslint: 8.44.0
 >>>>>>> chore:update deps
+=======
+      '@typescript-eslint/utils': 5.62.0(eslint@8.45.0)(typescript@5.1.6)
+      eslint: 8.45.0
+>>>>>>> feat:pack and use hati for test app, update deps
       is-html: 2.0.0
       jsx-ast-utils: 3.3.4
       kebab-case: 1.0.2
@@ -3894,6 +4434,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /eslint@8.45.0:
     resolution: {integrity: sha512-pd8KSxiQpdYRfYa9Wufvdoct3ZPQQuVuU5O6scNgMuOMYuxvH0IGaYK0wUFjo4UYYQQCUndlXiMbnxopwvvTiw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -3908,6 +4449,14 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.44.0)
 >>>>>>> chore:update deps
+=======
+  /eslint@8.45.0:
+    resolution: {integrity: sha512-pd8KSxiQpdYRfYa9Wufvdoct3ZPQQuVuU5O6scNgMuOMYuxvH0IGaYK0wUFjo4UYYQQCUndlXiMbnxopwvvTiw==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.0(eslint@8.45.0)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@eslint-community/regexpp': 4.5.1
       '@eslint/eslintrc': 2.1.0
       '@eslint/js': 8.44.0
@@ -3923,10 +4472,14 @@ packages:
       eslint-scope: 7.2.1
       eslint-visitor-keys: 3.4.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       espree: 9.6.1
 =======
       espree: 9.6.0
 >>>>>>> chore:update deps
+=======
+      espree: 9.6.1
+>>>>>>> feat:pack and use hati for test app, update deps
       esquery: 1.5.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
@@ -3953,12 +4506,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /espree@9.6.1:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
 =======
   /espree@9.6.0:
     resolution: {integrity: sha512-1FH/IiruXZ84tpUlm0aCUEwMl2Ho5ilqVh0VvQXw+byAz/4SAciyHLlfmL5WYqsvD38oymdUwBss0LtK8m4s/A==}
 >>>>>>> chore:update deps
+=======
+  /espree@9.6.1:
+    resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       acorn: 8.10.0
@@ -4277,10 +4835,6 @@ packages:
 
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
-    dev: true
-
-  /grapheme-splitter@1.0.4:
-    resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
   /graphemer@1.4.0:
@@ -4771,14 +5325,19 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /lucide-solid@0.259.0(solid-js@1.7.8):
 =======
   /lucide-solid@0.259.0(solid-js@1.7.7):
 >>>>>>> chore:update deps
+=======
+  /lucide-solid@0.259.0(solid-js@1.7.8):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-oMEQQYAzLXhBQnyF2alsC24hd8j6zStA7gbct6rIDk5NtChCWG6hp4erKRJoWsTBCKh00q4xt3sfnnLC32SAsg==}
     peerDependencies:
       solid-js: ^1.4.7
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       solid-js: 1.7.8
     dev: true
@@ -4789,6 +5348,9 @@ packages:
 =======
 =======
       solid-js: 1.7.7
+=======
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
 <<<<<<< HEAD
@@ -5238,9 +5800,12 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /mkdirp@2.1.6:
     resolution: {integrity: sha512-+hEnITedc8LAtIP9u3HJDFIdcLV2vXP33sqLLIzkv1Db1zO/1OxbvYf0Y1OC/S/Qo5dxHXepofhmxL02PsKe+A==}
     engines: {node: '>=10'}
@@ -5260,7 +5825,12 @@ packages:
 >>>>>>> chore(deps): update dependency @ark-ui/solid to ^0.8.0
     dev: true
 
+<<<<<<< HEAD
 >>>>>>> feat:setup mdx
+=======
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
@@ -5348,10 +5918,14 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       es-abstract: 1.22.1
 =======
       es-abstract: 1.21.2
 >>>>>>> chore:update deps
+=======
+      es-abstract: 1.22.1
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /once@1.4.0:
@@ -5480,36 +6054,49 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /postcss-import@15.1.0(postcss@8.4.26):
 =======
   /postcss-import@15.1.0(postcss@8.4.25):
 >>>>>>> chore:update deps
+=======
+  /postcss-import@15.1.0(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       postcss: 8.4.26
 =======
       postcss: 8.4.25
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+>>>>>>> feat:pack and use hati for test app, update deps
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.2
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /postcss-js@4.0.1(postcss@8.4.26):
 =======
   /postcss-js@4.0.1(postcss@8.4.25):
 >>>>>>> chore:update deps
+=======
+  /postcss-js@4.0.1(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
+<<<<<<< HEAD
 <<<<<<< HEAD
       postcss: 8.4.26
     dev: true
@@ -5521,6 +6108,12 @@ packages:
 
   /postcss-load-config@3.1.4(postcss@8.4.25):
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+    dev: true
+
+  /postcss-load-config@3.1.4(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
     engines: {node: '>= 10'}
     peerDependencies:
@@ -5534,6 +6127,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       postcss: 8.4.26
       yaml: 1.10.2
     dev: true
@@ -5546,6 +6140,13 @@ packages:
 
   /postcss-load-config@4.0.1(postcss@8.4.25):
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+      yaml: 1.10.2
+    dev: true
+
+  /postcss-load-config@4.0.1(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-vEJIc8RdiBRu3oRAI0ymerOn+7rPuMvRXslTvZUKZonDHFIczxztIyJ1urxM1x9JXEikvpWWTUUqal5j/8QgvA==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -5559,6 +6160,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
       postcss: 8.4.26
       yaml: 2.3.1
     dev: true
@@ -5571,16 +6173,27 @@ packages:
 
   /postcss-nested@6.0.1(postcss@8.4.25):
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+      yaml: 2.3.1
+    dev: true
+
+  /postcss-nested@6.0.1(postcss@8.4.26):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       postcss: 8.4.26
 =======
       postcss: 8.4.25
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+>>>>>>> feat:pack and use hati for test app, update deps
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -5597,12 +6210,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /postcss@8.4.26:
     resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
 =======
   /postcss@8.4.25:
     resolution: {integrity: sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==}
 >>>>>>> chore:update deps
+=======
+  /postcss@8.4.26:
+    resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.6
@@ -5617,6 +6235,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /prettier-plugin-tailwindcss@0.4.1(prettier@3.0.0):
     resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
 =======
@@ -5627,6 +6246,10 @@ packages:
   /prettier-plugin-tailwindcss@0.4.0(prettier@3.0.0):
     resolution: {integrity: sha512-Rna0sDPETA0KNhMHlN8wxKNgfSa8mTl2hPPAGxnbv6tUcHT6J4RQmQ8TLXyhB7Dm5Von4iHloBxTyClYM6wT0A==}
 >>>>>>> chore(deps): update dependency prettier-plugin-tailwindcss to ^0.4.0
+=======
+  /prettier-plugin-tailwindcss@0.4.1(prettier@3.0.0):
+    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -5807,12 +6430,17 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /rollup@3.26.3:
     resolution: {integrity: sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==}
 =======
   /rollup@3.26.2:
     resolution: {integrity: sha512-6umBIGVz93er97pMgQO08LuH3m6PUb3jlDUUGFsNJB6VgTCUaDFpupf5JfU30529m/UKOgmiX+uY6Sx8cOYpLA==}
 >>>>>>> chore:update deps
+=======
+  /rollup@3.26.3:
+    resolution: {integrity: sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -5826,6 +6454,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /safe-array-concat@1.0.0:
     resolution: {integrity: sha512-9dVEFruWIsnie89yym+xWTAYASdpw3CJV7Li/6zBewGf9z2i1j31rP6jnY0pHEO4QZh6N0K11bFjWmdR8UGdPQ==}
     engines: {node: '>=0.4'}
@@ -5835,12 +6464,27 @@ packages:
       has-symbols: 1.0.3
       isarray: 2.0.5
 =======
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /sade@1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
     dependencies:
       mri: 1.2.0
+<<<<<<< HEAD
 >>>>>>> feat:setup mdx
+=======
+=======
+  /safe-array-concat@1.0.0:
+    resolution: {integrity: sha512-9dVEFruWIsnie89yym+xWTAYASdpw3CJV7Li/6zBewGf9z2i1j31rP6jnY0pHEO4QZh6N0K11bFjWmdR8UGdPQ==}
+    engines: {node: '>=0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      get-intrinsic: 1.2.1
+      has-symbols: 1.0.3
+      isarray: 2.0.5
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /safe-regex-test@1.0.0:
@@ -5852,13 +6496,19 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
     dev: true
 
+<<<<<<< HEAD
 =======
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /semver@7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
     engines: {node: '>=10'}
@@ -5904,20 +6554,12 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /sirv@2.0.3:
-    resolution: {integrity: sha512-O9jm9BsID1P+0HOi81VpXPoDxYP374pkOLzACAoyUQ/3OUVndNpsz6wMnY2z+yOxzbllCKZrM+9QrWsv4THnyA==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@polka/url': 1.0.0-next.21
-      mrmime: 1.0.1
-      totalist: 3.0.1
-    dev: true
-
   /slash@3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /solid-js@1.7.8:
     resolution: {integrity: sha512-XHBWk1FvFd0JMKljko7FfhefJMTSgYEuVKcQ2a8hzRXfiuSJAGsrPPafqEo+f6l+e8Oe3cROSpIL6kbzjC1fjQ==}
@@ -5925,20 +6567,29 @@ packages:
   /solid-js@1.7.7:
     resolution: {integrity: sha512-SPdYVke/Z6Za24PBTbULyQYPrhGO1ZbPany76atO2zF2dmYn2pCotbsw1JtlgWnr9dK2JbwPGnA3ODTGPLhZNw==}
 >>>>>>> chore:update deps
+=======
+  /solid-js@1.7.8:
+    resolution: {integrity: sha512-XHBWk1FvFd0JMKljko7FfhefJMTSgYEuVKcQ2a8hzRXfiuSJAGsrPPafqEo+f6l+e8Oe3cROSpIL6kbzjC1fjQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     dependencies:
       csstype: 3.1.2
       seroval: 0.5.1
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /solid-refresh@0.5.3(solid-js@1.7.8):
 =======
   /solid-refresh@0.5.3(solid-js@1.7.7):
 >>>>>>> chore:update deps
+=======
+  /solid-refresh@0.5.3(solid-js@1.7.8):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-Otg5it5sjOdZbQZJnvo99TEBAr6J7PQ5AubZLNU6szZzg3RQQ5MX04oteBIIGDs0y2Qv8aXKm9e44V8z+UnFdw==}
     peerDependencies:
       solid-js: ^1.3
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/generator': 7.22.9
       '@babel/helper-module-imports': 7.22.5
@@ -5950,18 +6601,17 @@ packages:
       '@babel/types': 7.22.5
       solid-js: 1.7.7
 >>>>>>> chore:update deps
+=======
+      '@babel/generator': 7.22.9
+      '@babel/helper-module-imports': 7.22.5
+      '@babel/types': 7.22.5
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /source-map-support@0.5.21:
-    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
-    dependencies:
-      buffer-from: 1.1.2
-      source-map: 0.6.1
     dev: true
 
   /source-map@0.6.1:
@@ -6050,9 +6700,12 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /sucrase@3.33.0:
     resolution: {integrity: sha512-ARGC7vbufOHfpvyGcZZXFaXCMZ9A4fffOGC5ucOW7+WHDGlAe8LJdf3Jts1sWhDeiI1RSWrKy5Hodl+JWGdW2A==}
 =======
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /style-to-object@0.4.1:
     resolution: {integrity: sha512-HFpbb5gr2ypci7Qw+IOhnP2zOU7e77b+rzM+wTzXzfi1PrtBCX0E7Pk4wL4iTLnhzZ+JgEGAhX81ebTg/aYjQw==}
     dependencies:
@@ -6061,7 +6714,14 @@ packages:
 
   /sucrase@3.32.0:
     resolution: {integrity: sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==}
+<<<<<<< HEAD
 >>>>>>> feat:setup mdx
+=======
+=======
+  /sucrase@3.33.0:
+    resolution: {integrity: sha512-ARGC7vbufOHfpvyGcZZXFaXCMZ9A4fffOGC5ucOW7+WHDGlAe8LJdf3Jts1sWhDeiI1RSWrKy5Hodl+JWGdW2A==}
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=8'}
     hasBin: true
     dependencies:
@@ -6098,10 +6758,14 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /tailwindcss-animate@1.0.6(tailwindcss@3.3.3):
 =======
   /tailwindcss-animate@1.0.6(tailwindcss@3.3.2):
 >>>>>>> chore:update deps
+=======
+  /tailwindcss-animate@1.0.6(tailwindcss@3.3.3):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-4WigSGMvbl3gCCact62ZvOngA+PRqhAn7si3TQ3/ZuPuQZcIEtVap+ENSXbzWhpojKB8CpvnIsrwBu8/RnHtuw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -6129,11 +6793,15 @@ packages:
       object-hash: 3.0.0
       picocolors: 1.0.0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       postcss: 8.4.26
       postcss-import: 15.1.0(postcss@8.4.26)
       postcss-js: 4.0.1(postcss@8.4.26)
       postcss-load-config: 4.0.1(postcss@8.4.26)
       postcss-nested: 6.0.1(postcss@8.4.26)
+<<<<<<< HEAD
 =======
       postcss: 8.4.25
       postcss-import: 15.1.0(postcss@8.4.25)
@@ -6141,6 +6809,8 @@ packages:
       postcss-load-config: 4.0.1(postcss@8.4.25)
       postcss-nested: 6.0.1(postcss@8.4.25)
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       postcss-selector-parser: 6.0.13
       resolve: 1.22.2
       sucrase: 3.33.0
@@ -6177,11 +6847,6 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /totalist@3.0.1:
-    resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
-    engines: {node: '>=6'}
-    dev: true
-
   /tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
@@ -6193,6 +6858,7 @@ packages:
     hasBin: true
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
@@ -6211,6 +6877,8 @@ packages:
 >>>>>>> chore(deps): update typescript-eslint monorepo to v6
     dev: true
 
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
@@ -6225,6 +6893,7 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /tsup-preset-solid@0.1.8(esbuild@0.18.14)(solid-js@1.7.8)(tsup@6.7.0):
 =======
   /tsup-preset-solid@0.1.8(esbuild@0.17.19)(solid-js@1.7.5)(tsup@6.7.0)(typescript@4.9.5):
@@ -6232,10 +6901,14 @@ packages:
 =======
   /tsup-preset-solid@0.1.8(esbuild@0.18.11)(solid-js@1.7.7)(tsup@6.7.0):
 >>>>>>> chore:update deps
+=======
+  /tsup-preset-solid@0.1.8(esbuild@0.18.14)(solid-js@1.7.8)(tsup@6.7.0):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-V5TZFEZY9emACO3AZvKyCRzdoyjUcuMEEbTGcJnCma7OVvGnSNVoewFff9g0CaveJ8cZcC3u2tW9gMaxmPZ71A==}
     peerDependencies:
       tsup: ^6.5.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       esbuild-plugin-solid: 0.5.0(esbuild@0.18.14)(solid-js@1.7.8)
       tsup: 6.7.0(postcss@8.4.26)(typescript@5.1.6)
@@ -6245,6 +6918,11 @@ packages:
       tsup: 6.7.0(postcss@8.4.25)(typescript@5.1.6)
       type-fest: 3.13.0
 >>>>>>> chore:update deps
+=======
+      esbuild-plugin-solid: 0.5.0(esbuild@0.18.14)(solid-js@1.7.8)
+      tsup: 6.7.0(postcss@8.4.26)(typescript@5.1.6)
+      type-fest: 3.13.1
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - esbuild
       - solid-js
@@ -6252,10 +6930,14 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /tsup@6.7.0(postcss@8.4.26)(typescript@5.1.6):
 =======
   /tsup@6.7.0(postcss@8.4.25)(typescript@5.1.6):
 >>>>>>> chore:update deps
+=======
+  /tsup@6.7.0(postcss@8.4.26)(typescript@5.1.6):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
@@ -6280,6 +6962,7 @@ packages:
       globby: 11.1.0
       joycon: 3.1.1
 <<<<<<< HEAD
+<<<<<<< HEAD
       postcss: 8.4.26
       postcss-load-config: 3.1.4(postcss@8.4.26)
       resolve-from: 5.0.0
@@ -6290,6 +6973,12 @@ packages:
       resolve-from: 5.0.0
       rollup: 3.26.2
 >>>>>>> chore:update deps
+=======
+      postcss: 8.4.26
+      postcss-load-config: 3.1.4(postcss@8.4.26)
+      resolve-from: 5.0.0
+      rollup: 3.26.3
+>>>>>>> feat:pack and use hati for test app, update deps
       source-map: 0.8.0-beta.0
       sucrase: 3.33.0
       tree-kill: 1.2.2
@@ -6321,6 +7010,7 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /type-fest@3.13.1:
     resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
@@ -6358,8 +7048,42 @@ packages:
 =======
   /type-fest@3.13.0:
     resolution: {integrity: sha512-Gur3yQGM9qiLNs0KPP7LPgeRbio2QTt4xXouobMCarR0/wyW3F+F/+OWwshg3NG0Adon7uQfSZBpB46NfhoF1A==}
+=======
+  /type-fest@3.13.1:
+    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: '>=14.16'}
 >>>>>>> chore:update deps
+    dev: true
+
+  /typed-array-buffer@1.0.0:
+    resolution: {integrity: sha512-Y8KTSIglk9OZEr8zywiIHG/kmQ7KWyjseXs1CbSo8vC42w7hg2HgYTxSWwP0+is7bWDc1H+Fo026CpHFwm8tkw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      get-intrinsic: 1.2.1
+      is-typed-array: 1.1.12
+    dev: true
+
+  /typed-array-byte-length@1.0.0:
+    resolution: {integrity: sha512-Or/+kvLxNpeQ9DtSydonMxCx+9ZXOswtwJn17SNLvhptaXYDJvkFFP5zbfU/uLmvnBJlI4yrnXRxpdWH/M5tNA==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      for-each: 0.3.3
+      has-proto: 1.0.1
+      is-typed-array: 1.1.12
+    dev: true
+
+  /typed-array-byte-offset@1.0.0:
+    resolution: {integrity: sha512-RD97prjEt9EL8YgAgpOkf3O4IF9lhJFr9g0htQkm0rchFp/Vx7LW5Q8fSXXub7BXAODyUQohRMyOc3faCPd0hg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      available-typed-arrays: 1.0.5
+      call-bind: 1.0.2
+      for-each: 0.3.3
+      has-proto: 1.0.1
+      is-typed-array: 1.1.12
     dev: true
 
   /typed-array-length@1.0.4:
@@ -6501,11 +7225,14 @@ packages:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   /vite-plugin-dts@3.3.1(@types/node@20.4.2)(typescript@5.1.6)(vite@4.4.4):
     resolution: {integrity: sha512-RFebFGg6GWKkZqRQ5n6ls8giSiygKMBriJTFp8N+CRbYgI4lMXBxXEx0z2bthfeQv/xB53Wmhn/LNOOqb9OQHQ==}
 =======
 =======
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
   /vfile-message@3.1.4:
     resolution: {integrity: sha512-fa0Z6P8HUrQN4BZaX05SIVXic+7kE3b05PWAtPuYP9QLHsLKYR7/AlLW3NtOrpXRLeawpDLMsVkmk5DG0NXgWw==}
     dependencies:
@@ -6544,12 +7271,24 @@ packages:
   /vite-plugin-dts@3.2.0(@types/node@20.4.1)(typescript@5.1.6):
     resolution: {integrity: sha512-s+dwJvDcb/AWgb49oVbq9JiUSIMwaVpFfV4SVIaBZmv9OZyeyDGxujaq+z4HJ4LB4hUG5c4oRAJyLfV66c763Q==}
 >>>>>>> chore:update deps
+=======
+  /vite-plugin-dts@3.3.1(@types/node@20.4.2)(typescript@5.1.6)(vite@4.4.4):
+    resolution: {integrity: sha512-RFebFGg6GWKkZqRQ5n6ls8giSiygKMBriJTFp8N+CRbYgI4lMXBxXEx0z2bthfeQv/xB53Wmhn/LNOOqb9OQHQ==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
+      vite: '*'
+    peerDependenciesMeta:
+      vite:
+        optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> chore:update deps
+=======
+<<<<<<< HEAD
+>>>>>>> feat:pack and use hati for test app, update deps
       '@babel/parser': 7.21.8
       '@microsoft/api-extractor': 7.34.9(@types/node@18.16.13)
       '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
@@ -6568,35 +7307,45 @@ packages:
       '@rushstack/node-core-library': 3.59.5(@types/node@20.4.1)
       '@vue/language-core': 1.8.4(typescript@5.1.6)
 >>>>>>> chore:update deps
+=======
+      '@microsoft/api-extractor': 7.36.2(@types/node@20.4.2)
+      '@rollup/pluginutils': 5.0.2
+      '@vue/language-core': 1.8.5(typescript@5.1.6)
+>>>>>>> feat:pack and use hati for test app, update deps
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.1.6
+<<<<<<< HEAD
       vue-tsc: 1.8.4(typescript@5.1.6)
     optionalDependencies:
       rollup: 3.26.2
       vite: 4.4.2(@types/node@20.4.1)
 >>>>>>> chore:update deps
+=======
+      vite: 4.4.4(@types/node@20.4.2)
+      vue-tsc: 1.8.5(typescript@5.1.6)
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
+      - rollup
       - supports-color
-      - terser
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   /vite-plugin-solid@2.7.0(solid-js@1.7.8)(vite@4.4.4):
 =======
   /vite-plugin-solid@2.7.0(solid-js@1.7.7)(vite@4.4.2):
 >>>>>>> chore:update deps
+=======
+  /vite-plugin-solid@2.7.0(solid-js@1.7.8)(vite@4.4.4):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
       vite: ^3.0.0 || ^4.0.0
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@babel/core': 7.22.9
       '@babel/preset-typescript': 7.22.5(@babel/core@7.22.9)
@@ -6610,18 +7359,30 @@ packages:
 =======
       '@babel/core': 7.22.8
       '@babel/preset-typescript': 7.22.5(@babel/core@7.22.8)
+=======
+      '@babel/core': 7.22.9
+      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.9)
+>>>>>>> feat:pack and use hati for test app, update deps
       '@types/babel__core': 7.20.1
-      babel-preset-solid: 1.7.7(@babel/core@7.22.8)
+      babel-preset-solid: 1.7.7(@babel/core@7.22.9)
       merge-anything: 5.1.7
+<<<<<<< HEAD
       solid-js: 1.7.7
       solid-refresh: 0.5.3(solid-js@1.7.7)
       vite: 4.4.2(@types/node@20.4.1)
       vitefu: 0.2.4(vite@4.4.2)
 >>>>>>> chore:update deps
+=======
+      solid-js: 1.7.8
+      solid-refresh: 0.5.3(solid-js@1.7.8)
+      vite: 4.4.4(@types/node@20.4.2)
+      vitefu: 0.2.4(vite@4.4.4)
+>>>>>>> feat:pack and use hati for test app, update deps
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   /vite@4.4.4(@types/node@20.4.2):
@@ -6663,6 +7424,10 @@ packages:
   /vite@4.4.2(@types/node@20.4.1):
     resolution: {integrity: sha512-zUcsJN+UvdSyHhYa277UHhiJ3iq4hUBwHavOpsNUGsTgjBeoBlK8eDt+iT09pBq0h9/knhG/SPrZiM7cGmg7NA==}
 >>>>>>> chore:update deps
+=======
+  /vite@4.4.4(@types/node@20.4.2):
+    resolution: {integrity: sha512-4mvsTxjkveWrKDJI70QmelfVqTm+ihFAb6+xf4sjEU2TmUCTlVX87tmg/QooPEMQb/lM9qGHT99ebqPziEd3wg==}
+>>>>>>> feat:pack and use hati for test app, update deps
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6690,25 +7455,35 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
       '@types/node': 20.4.2
       esbuild: 0.18.14
       postcss: 8.4.26
       rollup: 3.26.3
+<<<<<<< HEAD
 =======
       '@types/node': 20.4.1
       esbuild: 0.18.11
       postcss: 8.4.25
       rollup: 3.26.2
 >>>>>>> chore:update deps
+=======
+>>>>>>> feat:pack and use hati for test app, update deps
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /vitefu@0.2.4(vite@4.4.4):
 =======
   /vitefu@0.2.4(vite@4.4.2):
 >>>>>>> chore:update deps
+=======
+  /vitefu@0.2.4(vite@4.4.4):
+>>>>>>> feat:pack and use hati for test app, update deps
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -6717,10 +7492,14 @@ packages:
         optional: true
     dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
       vite: 4.4.4(@types/node@20.4.2)
 =======
       vite: 4.4.2(@types/node@20.4.1)
 >>>>>>> chore:update deps
+=======
+      vite: 4.4.4(@types/node@20.4.2)
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
 
   /vue-template-compiler@2.7.14:
@@ -6731,16 +7510,22 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /vue-tsc@1.8.5(typescript@5.1.6):
     resolution: {integrity: sha512-Jr8PTghJIwp69MFsEZoADDcv2l+lXA8juyN/5AYA5zxyZNvIHjSbgKgkYIYc1qnihrOyIG1VOnfk4ZE0jqn8bw==}
 =======
   /vue-tsc@1.8.4(typescript@5.1.6):
     resolution: {integrity: sha512-+hgpOhIx11vbi8/AxEdaPj3fiRwN9wy78LpsNNw2V995/IWa6TMyQxHbaw2ZKUpdwjySSHgrT6ohDEhUgFxGYw==}
 >>>>>>> chore:update deps
+=======
+  /vue-tsc@1.8.5(typescript@5.1.6):
+    resolution: {integrity: sha512-Jr8PTghJIwp69MFsEZoADDcv2l+lXA8juyN/5AYA5zxyZNvIHjSbgKgkYIYc1qnihrOyIG1VOnfk4ZE0jqn8bw==}
+>>>>>>> feat:pack and use hati for test app, update deps
     hasBin: true
     peerDependencies:
       typescript: '*'
     dependencies:
+<<<<<<< HEAD
 <<<<<<< HEAD
       '@vue/language-core': 1.8.5(typescript@5.1.6)
       '@vue/typescript': 1.8.5(typescript@5.1.6)
@@ -6748,6 +7533,10 @@ packages:
       '@vue/language-core': 1.8.4(typescript@5.1.6)
       '@vue/typescript': 1.8.4(typescript@5.1.6)
 >>>>>>> chore:update deps
+=======
+      '@vue/language-core': 1.8.5(typescript@5.1.6)
+      '@vue/typescript': 1.8.5(typescript@5.1.6)
+>>>>>>> feat:pack and use hati for test app, update deps
       semver: 7.5.4
       typescript: 5.1.6
     dev: true
@@ -6833,6 +7622,7 @@ packages:
     dev: true
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   file:dist/gothammm-hati-0.0.4.tgz(@ark-ui/solid@0.8.1)(solid-js@1.7.8):
     resolution: {integrity: sha512-ga4+eAWzozNXX6cUPgMrUuBSdHZ0Pjmq4SK/Si1s7nfI0PAsFyhQI7atbwW2rkEJGHi8/Nvv8ln0TkRRPxP6xw==, tarball: file:dist/gothammm-hati-0.0.4.tgz}
     id: file:dist/gothammm-hati-0.0.4.tgz
@@ -6848,4 +7638,21 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 >>>>>>> feat:setup mdx
+=======
+  /zwitch@2.0.4:
+    resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
+=======
+  file:dist/gothammm-hati-0.0.4.tgz(@ark-ui/solid@0.8.1)(solid-js@1.7.8):
+    resolution: {integrity: sha512-3kuRhGoHx54xuTWHL33eFqKj8ZFblP9OaeXuO0c2SM3Ka+0PS7zWy3+ygazNHzDwchA9cgP8TcRkIGwCq8aLaA==, tarball: file:dist/gothammm-hati-0.0.4.tgz}
+    id: file:dist/gothammm-hati-0.0.4.tgz
+    name: '@gothammm/hati'
+    version: 0.0.4
+    peerDependencies:
+      '@ark-ui/solid': ^0.8.1
+      solid-js: ^1.7.8
+    dependencies:
+      '@ark-ui/solid': 0.8.1(solid-js@1.7.8)
+      solid-js: 1.7.8
+>>>>>>> feat:pack and use hati for test app, update deps
+>>>>>>> feat:pack and use hati for test app, update deps
     dev: true
