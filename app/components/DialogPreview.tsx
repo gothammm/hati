@@ -5,9 +5,9 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../../lib/components/dialog";
+  Button,
+} from "@gothammm/hati";
 import { PreviewContainer } from "./PreviewContainer";
-import { Button } from "../../lib/components/button";
 
 export const DialogPreview = () => {
   return (

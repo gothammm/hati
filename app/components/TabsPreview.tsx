@@ -1,4 +1,4 @@
-import { TabContent, TabList, TabTrigger, Tabs } from "../../lib";
+import { TabContent, TabList, TabTrigger, Tabs } from "@gothammm/hati";
 import { PreviewContainer } from "./PreviewContainer";
 import { createSignal } from "solid-js";
 
