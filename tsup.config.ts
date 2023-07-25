@@ -1,14 +1,19 @@
-import { defineConfig } from "tsup-preset-solid";
+import { defineConfig } from "tsup";
+import * as preset from "tsup-preset-solid";
 
-export default defineConfig(
-  {
-    entry: "lib/index.tsx",
-    devEntry: false,
-  },
-  {
-    // Enable this to write export conditions to package.json
-    // writePackageJson: true,
-    dropConsole: true,
-    cjs: true
-  },
-);
+const presetOptions: preset.PresetOptions = {
+  entries: [
+    {
+      entry: "lib/index.tsx",
+      dev_entry: false,
+    },
+  ],
+  drop_console: true,
+  cjs: true,
+};
+export default defineConfig((config) => {
+  const watching = !!config.watch;
+
+  const parsedData = preset.parsePresetOptions(presetOptions, watching);
+  return preset.generateTsupOptions(parsedData);
+});
