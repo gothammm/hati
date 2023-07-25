@@ -3,5 +3,6 @@
   "emmet.includeLanguages": {
     "postcss": "css"
   },
-  "postcss.validate": false
+  "postcss.validate": false,
+  "prettier.enable": true
 }

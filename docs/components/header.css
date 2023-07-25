@@ -1,13 +1,13 @@
 @tailwind components;
 
 @layer components {
-  .header {
+  header {
     @apply sticky top-0 z-40 w-full border-b bg-background/95 shadow-sm backdrop-blur px-8 py-5 flex h-14 items-center;
   }
-  .header a[data-type="title"] {
+  header a[data-type="title"] {
     @apply mr-6 hidden font-bold text-foreground sm:inline-block;
   }
-  .header nav {
+  header nav {
     @apply flex items-center space-x-6 text-sm font-medium;
   }
 
@@ -16,11 +16,11 @@
     text-decoration: inherit;
   }
 
-  .header .right-navbar {
+  header .right-navbar {
     @apply flex flex-1 items-center space-x-2 sm:space-x-4 justify-end;
   }
 
-  .header .right-navbar button {
+  header .right-navbar button {
     @apply max-sm:h-12 max-sm:w-12;
   }
 }

@@ -1,10 +1,11 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
+import { Router } from "@solidjs/router";
 import "@gothammm/hati/styles.css";
-
 import App from "./App";
 import { Router } from "@solidjs/router";
 import "../lib/base.css";
+
 
 const root = document.getElementById("root");
 

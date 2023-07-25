@@ -1,5 +1,5 @@
-import { Button } from "../../lib/components/button";
 import "./home.css";
+import { Button } from "@gothammm/hati";
 import { useNavigate } from "@solidjs/router";
 
 export const Home = () => {

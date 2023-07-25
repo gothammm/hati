@@ -4,12 +4,12 @@ import solidPlugin from "vite-plugin-solid";
 import mdx from "@mdx-js/rollup";
 
 export default defineConfig({
-  plugins: [solidPlugin(), {
-    enforce: "pre",
-    ...mdx({
+  plugins: [
+    solidPlugin(),
+    mdx({
       jsxImportSource: "solid-js/h",
     }),
-  }],
+  ],
   server: {
     port: 3000,
   },

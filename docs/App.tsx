@@ -5,6 +5,7 @@ import { Sidebar } from "./components/sidebar";
 import Introduction from "./pages/docs/introduction.mdx";
 import GettingStarted from "./pages/docs/getting-started.mdx";
 import { MDXWrapper } from "./components/mdx-wrapper";
+import "./base.css";
 
 export default function App() {
   return (

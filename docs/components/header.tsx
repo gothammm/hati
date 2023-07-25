@@ -1,8 +1,11 @@
+
 import { Component, Match, Switch, createSignal } from "solid-js";
-import "./header.css";
-import { Button } from "../../lib/components/button";
+import { Button } from "@gothammm/hati";
 import { applyTheme } from "../../lib/util";
 import { Moon, Sun } from "lucide-solid";
+import "./header.css";
+
+
 export const Header: Component = () => {
   const [theme, setTheme] = createSignal<"dark" | "light">("light");
   return (

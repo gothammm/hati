@@ -11,7 +11,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../lib";
+} from "@gothammm/hati";
 import {
   AlertCircle,
   AlertTriangle,
@@ -22,11 +22,11 @@ import {
   Sun,
   Terminal,
 } from "lucide-solid";
-import { Alert, AlertDescription, AlertTitle } from "../lib";
-import { Avatar, AvatarFallback, AvatarImage } from "../lib";
+import { Alert, AlertDescription, AlertTitle } from "@gothammm/hati";
+import { Avatar, AvatarFallback, AvatarImage } from "@gothammm/hati";
 import { PreviewContainer } from "./components/PreviewContainer";
 import { applyTheme } from "../lib/util";
-import { Badge } from "../lib";
+import { Badge } from "@gothammm/hati";
 import { TabsPreview } from "./components/TabsPreview";
 import { DialogPreview } from "./components/DialogPreview";
 
