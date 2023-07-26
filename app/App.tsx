@@ -1,4 +1,4 @@
-import { Routes, Route, Outlet } from "@solidjs/router";
+import { Routes, Route, Outlet, Router } from "@solidjs/router";
 import { Header } from "./components/header";
 import { Home } from "./pages/home";
 import { Sidebar } from "./components/sidebar";
@@ -8,7 +8,7 @@ import { MDXWrapper } from "./components/mdx-wrapper";
 
 export default function App() {
   return (
-    <>
+    <Router>
       <Header />
       <main class="flex flex-1">
         <Routes>
@@ -33,6 +33,6 @@ export default function App() {
           />
         </Routes>
       </main>
-    </>
+    </Router>
   );
 }
