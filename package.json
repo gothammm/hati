@@ -4,9 +4,9 @@
   "description": "UI Component Library built for Solid.js",
   "scripts": {
     "prepare:local-package": "pnpm pack --pack-destination dist",
-    "docs:dev": "vite serve docs",
-    "docs:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build docs",
-    "docs:serve": "vite preview docs",
+    "app:dev": "vite serve docs",
+    "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build docs",
+    "app:serve": "vite preview docs",
     "www:dev": "vite serve www",
     "www:build": "vite build www",
     "www:serve": "vite preview www",
