@@ -1,0 +1,41 @@
+import { TabsContainer } from "../../components/tabs-container";
+
+# Installation
+
+Install **Hati** by running either of the commands:
+
+<TabsContainer
+  initialTab={"pnpm"}
+  tabs={[
+    {
+      header: "pnpm",
+      content: "pnpm install @gothamm/hati",
+    },
+    {
+      header: "npm",
+      content: "npm install @gothamm/hati",
+    },
+    {
+      header: "yarn",
+      content: "yarn install @gothamm/hati",
+    },
+  ]}
+/>
+
+## Usage
+
+**Hati** comes with pre-built css that is required to be imported in your applications entry point.
+
+```
+import '@gothammm/hati/styles.css';
+```
+
+Once that's done, import the components you need to build your applications
+
+```
+import { Button } from '@gothammm/hati';
+
+export const App = () => {
+  return <Button>Hey there!</Button>
+};
+```

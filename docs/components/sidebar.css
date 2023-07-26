@@ -6,4 +6,8 @@
 
     @apply hover:bg-accent;
   }
+
+  div[data-section="sidebar"] {
+    @apply border-r border-primary/10;
+  }
 }

@@ -3,9 +3,8 @@ import { Header } from "./components/header";
 import { Home } from "./pages/home";
 import { Sidebar } from "./components/sidebar";
 import Introduction from "./pages/docs/introduction.mdx";
-import GettingStarted from "./pages/docs/getting-started.mdx";
+import Installation from "./pages/docs/installation.mdx";
 import { MDXWrapper } from "./components/mdx-wrapper";
-import "./base.css";
 
 export default function App() {
   return (
@@ -25,10 +24,7 @@ export default function App() {
             )}
           >
             <Route path="/" component={() => <Introduction />} />
-            <Route
-              path="/getting-started"
-              component={() => <GettingStarted />}
-            />
+            <Route path="/installation" component={() => <Installation />} />
           </Route>
           <Route path="/" component={Home} />
           <Route

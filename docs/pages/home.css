@@ -10,11 +10,11 @@
   }
 
   div[data-section="hero"] h1 {
-    @apply font-bold text-5xl mb-5;
+    @apply font-bold text-4xl lg:text-5xl mb-5;
   }
 
   div[data-section="hero"] span {
-    @apply text-muted-foreground sm:text-xl text-lg;
+    @apply text-muted-foreground lg:text-xl text-base;
   }
   div[data-section="hero"] button {
     @apply mt-5 max-sm:self-start;

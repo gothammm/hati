@@ -10,13 +10,10 @@
     "www:dev": "vite serve www",
     "www:build": "vite build www",
     "www:serve": "vite preview www",
-    "old:dev": "vite serve app",
-    "old:build": "vite build app",
-    "old:serve": "vite preview app",
     "build": "tsup",
-    "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
+    "lint": "eslint --fix \"docs/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
+    "format:check": "prettier --check \"docs/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"docs/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
   },
   "license": "MIT",
   "type": "module",

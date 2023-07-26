@@ -2,10 +2,10 @@
 
 @layer components {
   header {
-    @apply sticky top-0 z-40 w-full border-b bg-background/95 shadow-sm backdrop-blur px-8 py-5 flex h-14 items-center;
+    @apply sticky top-0 z-40 w-full border-b border-primary/10 bg-background/95 shadow-sm backdrop-blur pl-5 pr-2 py-5 flex h-14 items-center;
   }
   header a[data-type="title"] {
-    @apply mr-6 hidden font-bold text-foreground sm:inline-block;
+    @apply mr-6 font-bold text-foreground sm:inline-block;
   }
   header nav {
     @apply flex items-center space-x-6 text-sm font-medium;

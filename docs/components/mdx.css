@@ -2,36 +2,40 @@
 
 @layer components {
   div[data-section="md-wrapper"] {
-    @apply mx-auto min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-4xl xl:px-16 text-foreground;
+    @apply mx-auto min-w-0 max-w-2xl flex-auto px-7 py-10 xl:py-16 lg:max-w-4xl xl:px-16 text-foreground;
   }
   div[data-section="md-wrapper"] article h1 {
-    @apply mb-4 scroll-mt-28 text-4xl font-medium;
+    @apply mb-4 scroll-mt-28 text-4xl font-bold;
   }
 
   div[data-section="md-wrapper"] article {
-    @apply max-w-none;
+    @apply max-w-none leading-7;
   }
 
   div[data-section="md-wrapper"] article p {
-    @apply mb-4 mt-8 font-light;
+    @apply mb-4 mt-8 font-normal;
   }
 
   div[data-section="md-wrapper"] article a {
-    @apply inline-flex h-10 items-center justify-center rounded-md font-medium underline-offset-4 ring-offset-background transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+    @apply inline-flex h-10 items-center justify-center rounded-md font-semibold underline-offset-4 ring-offset-background transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
   }
 
   div[data-section="md-wrapper"] article h2 {
-    @apply mb-4 mt-12 scroll-mt-28 text-2xl font-medium;
+    @apply mb-4 mt-12 scroll-mt-28 text-2xl font-semibold;
   }
 
   div[data-section="md-wrapper"] article ul {
     @apply list-disc pl-4 marker:text-slate-400;
   }
   div[data-section="md-wrapper"] article ul > li {
-    @apply pl-2;
+    @apply pl-2 mt-5;
   }
-  
+
   div[data-section="md-wrapper"] article button[data-type="action"] {
     @apply mt-2;
+  }
+
+  div[data-section="md-wrapper"] pre {
+    @apply p-5 bg-secondary rounded-lg text-sm;
   }
 }
