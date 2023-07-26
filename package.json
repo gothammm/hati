@@ -4,16 +4,16 @@
   "description": "UI Component Library built for Solid.js",
   "scripts": {
     "prepare:local-package": "pnpm pack --pack-destination dist",
-    "app:dev": "vite serve docs",
-    "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build docs",
-    "app:serve": "vite preview docs",
+    "app:dev": "vite serve app",
+    "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build app",
+    "app:serve": "vite preview app",
     "www:dev": "vite serve www",
     "www:build": "vite build www",
     "www:serve": "vite preview www",
     "build": "tsup",
-    "lint": "eslint --fix \"docs/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format:check": "prettier --check \"docs/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format": "prettier --write \"docs/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
+    "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
+    "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
+    "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
   },
   "license": "MIT",
   "type": "module",

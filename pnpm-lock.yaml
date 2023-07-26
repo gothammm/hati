@@ -4921,7 +4921,7 @@ packages:
     dev: true
 
   file:dist/gothammm-hati-0.0.4.tgz(@ark-ui/solid@0.8.1)(solid-js@1.7.8):
-    resolution: {integrity: sha512-EEjkutoT1tZLJmURqpf3OqyYNgkD+0dY/ukpjPwLEGkkZVBs6nyQGnVI9Hza0wYaJoQgNgOTo7/sVZBccnhaLA==, tarball: file:dist/gothammm-hati-0.0.4.tgz}
+    resolution: {integrity: sha512-EinGdlXM4JZxRyFv+/yWfD7s846WvXz+bTypGNYruBelZ6ZnkKOgJDcFlfWKmoXyLFtaARhq/dYyKBD85XsRuw==, tarball: file:dist/gothammm-hati-0.0.4.tgz}
     id: file:dist/gothammm-hati-0.0.4.tgz
     name: '@gothammm/hati'
     version: 0.0.4
