@@ -5,7 +5,7 @@ module.exports = {
   content: [
     "./index.html",
     "./lib/**/*.{js,ts,jsx,tsx,css,md,mdx,html,json,scss}",
-    "./app/**/*.{js,ts,jsx,tsx,css,md,mdx,html,json,scss}",
+    "./{app,www}/**/*.{js,ts,jsx,tsx,css,md,mdx,html,json,scss}",
   ],
   theme: {
     container: {

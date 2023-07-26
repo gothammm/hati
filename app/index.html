@@ -4,12 +4,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <title>Solid App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <title>Hati</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 
+    <style>
+      @supports (font-variation-settings: normal) {
+        body { font-family: "Inter var", sans-serif; }
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body class="bg-background">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div
+      style="height: 100vh"
+      class="relative flex flex-col bg-background"
+      id="root"
+    ></div>
     <script src="./index.tsx" type="module"></script>
   </body>
 </html>
