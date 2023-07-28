@@ -10,8 +10,8 @@ interface ComponentPreviewProps {
 
 export const ComponentPreview = (props: ComponentPreviewProps) => {
   return (
-    <div class="flex flex-col border rounded-lg border-secondary preview-container">
-      <div class="flex flex-col justify-center items-center bg-white rounded-t-lg dark:bg-slate-700 py-12">
+    <div class="flex flex-col border rounded-lg border-secondary preview-wrapper">
+      <div class="flex flex-col justify-center items-center bg-white rounded-t-lg dark:bg-slate-700 py-12 preview-container">
         {props.component()}
       </div>
       <div class="code-container">{props.children}</div>
