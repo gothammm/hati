@@ -34,7 +34,7 @@ export const TabsContainer = (props: {
           {(tab) => {
             return (
               <TabContent value={tab.header}>
-                <pre>
+                <pre class="language-sh">
                   <code>{tab.content}</code>
                 </pre>
               </TabContent>

@@ -1,4 +1,7 @@
 import { TabsContainer } from "../../components/tabs-container";
+import { BottomNavigation } from "../../components/bottom-navigation";
+import { ComponentPreview } from "../../components/component-preview";
+import { Button } from "@gothammm/hati";
 
 # Installation
 
@@ -26,16 +29,23 @@ Install **Hati** by running either of the commands:
 
 **Hati** comes with pre-built css that is required to be imported in your applications entry point.
 
-```
-import '@gothammm/hati/styles.css';
+```ts
+import "@gothammm/hati/styles.css";
 ```
 
 Once that's done, import the components you need to build your applications
 
-```
+<ComponentPreview component={() => <Button>Hey there!</Button>}>
+```ts
 import { Button } from '@gothammm/hati';
 
-export const App = () => {
-  return <Button>Hey there!</Button>
-};
+export const App = () => <Button>Hello!</Button>
 ```
+</ComponentPreview>
+
+<BottomNavigation
+  previous={{
+    path: "/docs",
+    text: "Introduction",
+  }}
+/>

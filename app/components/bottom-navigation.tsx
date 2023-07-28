@@ -17,7 +17,11 @@ export const BottomNavigation = (props: {
           <dl class="flex flex-1 flex-col items-start gap-3 px-3 py-2 min-w-fit">
             <dt class="text-sm font-medium self-start">Previous</dt>
             <dt class="flex flex-row items-center gap-3 font-medium">
-              <a href={props.previous.path}>
+              <a
+                href={props.previous.path}
+                class="flex flex-row items-center gap-3 font-medium"
+                link
+              >
                 <ArrowLeft /> {props.previous.text}
               </a>
             </dt>

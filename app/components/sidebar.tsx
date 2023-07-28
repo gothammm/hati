@@ -4,7 +4,7 @@ export const Sidebar = () => {
   return (
     <div
       data-section="sidebar"
-      class="hidden lg:relative lg:block lg:flex-none"
+      class="lg:relative block max-md:hidden lg:flex-none"
     >
       <div class="sticky top-[61px] h-[calc(100vh-61px)] overflow-y-auto py-6 pe-2 ps-2">
         <nav class="w-52 text-base lg:text-sm">

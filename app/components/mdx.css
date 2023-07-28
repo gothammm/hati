@@ -36,6 +36,6 @@
   }
 
   div[data-section="md-wrapper"] pre {
-    @apply p-5 bg-secondary rounded-lg text-sm;
+    @apply p-5 rounded-lg text-sm shadow-sm;
   }
 }

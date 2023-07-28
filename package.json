@@ -11,9 +11,9 @@
     "www:build": "vite build www",
     "www:serve": "vite preview www",
     "build": "tsup",
-    "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format:check": "prettier --check \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx}\"",
-    "format": "prettier --write \"app/**/*.{ts,tsx,css}\" \"lib/**/*.{ts,tsx,css}\""
+    "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx,mdx}\"",
+    "format:check": "prettier --check \"app/**/*.{ts,tsx,mdx,css}\" \"lib/**/*.{ts,tsx,mdx,css}\"",
+    "format": "prettier --write \"app/**/*.{ts,tsx,mdx,css}\" \"lib/**/*.{ts,tsx,css,mdx}\""
   },
   "license": "MIT",
   "type": "module",
@@ -52,9 +52,11 @@
   "devDependencies": {
     "@ark-ui/solid": "^0.8.1",
     "@gothammm/hati": "file:dist/gothammm-hati-0.0.4.tgz",
-    "@solidjs/router": "^0.8.2",
+    "@mapbox/rehype-prism": "^0.8.0",
     "@mdx-js/mdx": "^2.3.0",
     "@mdx-js/rollup": "^2.3.0",
+    "@solidjs/router": "^0.8.2",
+    "@types/mapbox__rehype-prism": "^0.8.0",
     "@types/mdx": "^2.0.5",
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^6.2.0",

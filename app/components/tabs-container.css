@@ -4,4 +4,7 @@
   .tabs {
     @apply w-auto;
   }
+  .tabs > .tabcontent {
+    @apply border-0 bg-none shadow-none;
+  }
 }

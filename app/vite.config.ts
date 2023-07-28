@@ -2,12 +2,14 @@
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import mdx from "@mdx-js/rollup";
+import { default as rehype } from "@mapbox/rehype-prism";
 
 export default defineConfig({
   plugins: [
     solidPlugin(),
     mdx({
       jsxImportSource: "solid-js/h",
+      rehypePlugins: rehype as any,
     }),
   ],
   server: {

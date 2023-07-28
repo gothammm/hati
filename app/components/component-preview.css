@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  div.code-container {
+    @apply rounded-lg;
+  }
+  div.preview-container div.code-container pre {
+    @apply rounded-t-none my-0;
+  }
+  div.preview-container {
+    @apply border-secondary shadow-sm;
+  }
+}
