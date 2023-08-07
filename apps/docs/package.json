@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/gothammm/hati#readme",
   "devDependencies": {
-    "@ark-ui/solid": "^0.8.1",
+    "@ark-ui/solid": "^0.9.0",
     "@gothammm/hati": "workspace:*",
     "@mapbox/rehype-prism": "^0.8.0",
     "@mdx-js/mdx": "^2.3.0",
@@ -43,7 +43,7 @@
     "esbuild": "^0.18.19",
     "eslint": "^8.46.0",
     "eslint-plugin-solid": "^0.12.1",
-    "lucide-solid": "^0.263.0",
+    "lucide-solid": "^0.264.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.4.1",
@@ -54,10 +54,6 @@
     "vite": "^4.4.9",
     "vite-plugin-dts": "^3.5.1",
     "vite-plugin-solid": "^2.7.0"
-  },
-  "peerDependencies": {
-    "@ark-ui/solid": "^0.8.1",
-    "solid-js": "^1.7.8"
   },
   "keywords": [
     "solid"
