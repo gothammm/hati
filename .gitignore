@@ -2,3 +2,4 @@ node_modules
 dist
 hati-dist
 .DS_Store
+.turbo

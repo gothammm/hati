@@ -4,7 +4,7 @@ import * as preset from "tsup-preset-solid";
 const presetOptions: preset.PresetOptions = {
   entries: [
     {
-      entry: "lib/index.tsx",
+      entry: "src/index.tsx",
       dev_entry: false,
     },
   ],
