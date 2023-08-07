@@ -1,88 +1,12 @@
 {
-  "name": "@gothammm/hati",
-  "version": "0.0.4",
-  "description": "UI Component Library built for Solid.js",
+  "private": true,
   "scripts": {
-    "prepare:local-package": "pnpm pack --pack-destination dist",
-    "app:dev": "vite serve app",
-    "app:build": "pnpm build && pnpm prepare:local-package && pnpm update && vite build app",
-    "app:serve": "vite preview app",
-    "www:dev": "vite serve www",
-    "www:build": "vite build www",
-    "www:serve": "vite preview www",
-    "build": "tsup",
-    "lint": "eslint --fix \"app/**/*.{ts,tsx}\" \"lib/**/*.{ts,tsx,mdx}\"",
-    "format:check": "prettier --check \"app/**/*.{ts,tsx,mdx,css}\" \"lib/**/*.{ts,tsx,mdx,css}\"",
-    "format": "prettier --write \"app/**/*.{ts,tsx,mdx,css}\" \"lib/**/*.{ts,tsx,css,mdx}\""
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "turbo run format:check"
   },
   "license": "MIT",
-  "type": "module",
-  "browser": {},
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": "./dist/index.cjs"
-    },
-    "./styles.css": {
-      "import": "./dist/index.css",
-      "require": "./dist/index.css"
-    }
-  },
-  "typesVersions": {},
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "private": false,
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gothammm/hati.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/gothammm/hati/issues"
-  },
-  "homepage": "https://github.com/gothammm/hati#readme",
-  "devDependencies": {
-    "@ark-ui/solid": "^0.8.1",
-    "@gothammm/hati": "file:dist/gothammm-hati-0.0.4.tgz",
-    "@mapbox/rehype-prism": "^0.8.0",
-    "@mdx-js/mdx": "^2.3.0",
-    "@mdx-js/rollup": "^2.3.0",
-    "@solidjs/router": "^0.8.2",
-    "@types/mapbox__rehype-prism": "^0.8.0",
-    "@types/mdx": "^2.0.5",
-    "@types/node": "^20.4.5",
-    "@typescript-eslint/eslint-plugin": "^6.2.0",
-    "@typescript-eslint/parser": "^6.2.0",
-    "autoprefixer": "^10.4.14",
-    "esbuild": "^0.18.17",
-    "eslint": "^8.46.0",
-    "eslint-plugin-solid": "^0.12.1",
-    "lucide-solid": "^0.263.0",
-    "postcss": "^8.4.27",
-    "prettier": "^3.0.0",
-    "prettier-plugin-tailwindcss": "^0.4.1",
-    "solid-js": "^1.7.8",
-    "tailwindcss": "^3.3.3",
-    "tailwindcss-animate": "^1.0.6",
-    "tsup": "^7.1.0",
-    "tsup-preset-solid": "^2.0.2",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.7",
-    "vite-plugin-dts": "^3.3.1",
-    "vite-plugin-solid": "^2.7.0"
-  },
-  "peerDependencies": {
-    "@ark-ui/solid": "^0.8.1",
-    "solid-js": "^1.7.8"
-  },
   "keywords": [
     "solid"
   ]

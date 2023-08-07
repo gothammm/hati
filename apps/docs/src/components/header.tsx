@@ -1,6 +1,6 @@
 import { Component, Match, Switch, createSignal } from "solid-js";
 import { Button } from "@gothammm/hati";
-import { applyTheme } from "../../lib/util";
+import { applyTheme } from "../util";
 import { Moon, Sun, Github } from "lucide-solid";
 import "./header.css";
 
