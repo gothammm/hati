@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/gothammm/hati#readme",
   "devDependencies": {
-    "@ark-ui/solid": "^0.8.1",
+    "@ark-ui/solid": "^0.9.0",
     "@mapbox/rehype-prism": "^0.8.0",
     "@types/node": "^20.4.8",
     "@typescript-eslint/eslint-plugin": "^6.2.1",
