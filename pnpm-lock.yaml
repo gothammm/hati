@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -56,8 +56,8 @@ importers:
         specifier: ^0.12.1
         version: 0.12.1(eslint@8.46.0)(typescript@5.1.6)
       lucide-solid:
-        specifier: ^0.264.0
-        version: 0.264.0(solid-js@1.7.9)
+        specifier: ^0.265.0
+        version: 0.265.0(solid-js@1.7.9)
       postcss:
         specifier: ^8.4.27
         version: 8.4.27
@@ -4163,8 +4163,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-solid@0.264.0(solid-js@1.7.9):
-    resolution: {integrity: sha512-muSiwEuHUPLhC9Gjw6mJylyTAbdDw+znxC97x09hd1dZ33aNYRXNrxzif+hxH/PKZHz5aXY7+iCOPo7WCeeDKw==}
+  /lucide-solid@0.265.0(solid-js@1.7.9):
+    resolution: {integrity: sha512-NxI/q//FPvsfRIP4lsU9/b8tdHB9jYMwIVQBVQdPyToF8Kjal015UiAdqQb70MEfMfzIxEl25CLYeXWdpDLbBw==}
     peerDependencies:
       solid-js: ^1.4.7
     dependencies:
