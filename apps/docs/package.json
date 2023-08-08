@@ -43,7 +43,7 @@
     "esbuild": "^0.18.19",
     "eslint": "^8.46.0",
     "eslint-plugin-solid": "^0.12.1",
-    "lucide-solid": "^0.264.0",
+    "lucide-solid": "^0.265.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.1",
     "prettier-plugin-tailwindcss": "^0.4.1",
