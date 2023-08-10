@@ -33,6 +33,8 @@ const MyComponent = (): Component => {
 
 ### Contribute
 
+This is a monorepo build with [turbo](https://turbo.build/repo/docs)
+
 #### Install dependencies
 
 ```bash
@@ -42,5 +44,5 @@ $ pnpm install # or npm install or yarn install
 #### To run the test app
 
 ```bash
-$ pnpm app:dev
+$ turbo dev
 ```
