@@ -16,12 +16,16 @@
     @apply mb-4 mt-8 font-normal;
   }
 
-  div[data-section="md-wrapper"] article > a {
+  div[data-section="md-wrapper"] article a {
     @apply inline-flex h-10 items-center justify-center rounded-md font-semibold underline-offset-4 ring-offset-background transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
   }
 
   div[data-section="md-wrapper"] article > h2 {
     @apply mb-4 mt-12 scroll-mt-28 text-2xl font-semibold;
+  }
+
+  div[data-section="md-wrapper"] article > h3 {
+    @apply mb-4 mt-12 scroll-mt-28 text-xl font-semibold;
   }
 
   div[data-section="md-wrapper"] article > ul {

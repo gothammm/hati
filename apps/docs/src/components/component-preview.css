@@ -4,6 +4,9 @@
   div.code-container {
     @apply rounded-lg;
   }
+  div.preview-container {
+    @apply px-10 bg-gray-50;
+  }
   div.preview-wrapper div.code-container pre {
     @apply rounded-t-none my-0;
   }

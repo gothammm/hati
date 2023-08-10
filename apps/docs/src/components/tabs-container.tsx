@@ -1,5 +1,5 @@
 import { TabContent, TabList, TabTrigger, Tabs } from "@gothammm/hati";
-import { For, createSignal } from "solid-js";
+import { For, JSX, createSignal } from "solid-js";
 
 import "./tabs-container.css";
 
@@ -7,7 +7,7 @@ export const TabsContainer = (props: {
   initialTab: string;
   tabs: Array<{
     header: string;
-    content: string;
+    content: JSX.Element | string;
   }>;
 }) => {
   const [currentTab, setCurrentTab] = createSignal<string | null>(

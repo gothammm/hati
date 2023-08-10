@@ -1,0 +1,117 @@
+import { Alert, AlertTitle, AlertDescription } from "@gothammm/hati";
+import { AlertCircle } from "lucide-solid";
+import { ComponentPreview } from "../../../components/component-preview";
+import { BottomNavigation } from "../../../components/bottom-navigation";
+
+
+# Alert
+
+An alert displays a short but important message for user's attention.
+
+## Basic Usage
+
+<ComponentPreview component={() => {
+  return <Alert><AlertTitle>This is an alert!</AlertTitle></Alert>
+}}>
+  ```ts
+  import { Alert } from '@gothammm/hati';
+
+  export const App = () => (<Alert>
+    <AlertTitle>
+      This is an alert!
+    </AlertTitle>
+  </Alert>);
+  ```
+</ComponentPreview>
+
+
+
+
+### With description
+
+<ComponentPreview component={() => {
+  return (<Alert>
+    <AlertTitle>
+      Alert!
+    </AlertTitle>
+    <AlertDescription>This is a description</AlertDescription>
+  </Alert>);
+}}>
+  ```ts
+  import { Alert } from '@gothammm/hati';
+
+  export const App = () => (<Alert>
+    <AlertTitle>
+      Alert!
+    </AlertTitle>
+    <AlertDescription>This is a description</AlertDescription>
+  </Alert>);
+  ```
+</ComponentPreview>
+
+### With Icons
+
+<ComponentPreview component={() => {
+  return (<Alert>
+    <AlertCircle class="h-4 w-4" />
+    <AlertTitle>
+      Alert!
+    </AlertTitle>
+    <AlertDescription>This is a description</AlertDescription>
+  </Alert>);
+}}>
+  ```ts
+  import { Alert } from '@gothammm/hati';
+  import { AlertCircle } from "lucide-solid";
+
+  export const App = () => (<Alert>
+    <AlertCircle class="h-4 w-4" />
+    <AlertTitle>
+      Alert!
+    </AlertTitle>
+    <AlertDescription>This is a description</AlertDescription>
+  </Alert>);
+  ```
+</ComponentPreview>
+
+
+
+### Variants
+
+<ComponentPreview component={() => {
+  return (<>
+    <Alert>
+      <AlertTitle>
+        Alert!
+      </AlertTitle>
+      <AlertDescription>This is a description</AlertDescription>
+    </Alert>
+    <br />
+    <Alert variant="error">
+      <AlertTitle>
+        Error!
+      </AlertTitle>
+      <AlertDescription>This is an error description</AlertDescription>
+    </Alert>
+  </>);
+}}>
+  ```ts
+  import { Alert } from '@gothammm/hati';
+
+  export const App = () => (<Alert>
+    <AlertTitle>
+      Default Alert!
+    </AlertTitle>
+    <AlertDescription>This is a description</AlertDescription>
+  </Alert>);
+  ```
+</ComponentPreview>
+
+
+<BottomNavigation
+  previous={{
+    path: "/docs/components/accordion",
+    text: "Accordion",
+  }}
+/>
+

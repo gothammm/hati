@@ -4,6 +4,8 @@ import { Home } from "./pages/home";
 import { Sidebar } from "./components/sidebar";
 import Introduction from "./pages/docs/introduction.mdx";
 import Installation from "./pages/docs/installation.mdx";
+import Alert from "./pages/docs/components/alert.mdx";
+import Accordion from "./pages/docs/components/accordion.mdx";
 import { MDXWrapper } from "./components/mdx-wrapper";
 
 export default function App() {
@@ -25,6 +27,10 @@ export default function App() {
           >
             <Route path="/" component={() => <Introduction />} />
             <Route path="/installation" component={() => <Installation />} />
+            <Route path="/components">
+              <Route path="/accordion" component={() => <Accordion />} />
+              <Route path="/alert" component={() => <Alert />} />
+            </Route>
           </Route>
           <Route path="/" component={Home} />
           <Route

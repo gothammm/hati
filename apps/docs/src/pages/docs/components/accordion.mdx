@@ -1,0 +1,69 @@
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@gothammm/hati";
+import { For } from "solid-js";
+import { ComponentPreview } from "../../../components/component-preview";
+import { BottomNavigation } from "../../../components/bottom-navigation";
+
+# Accordion
+
+A vertically stacked set of headings, that are interactive and reveals a section of content.
+
+- [API reference](https://ark-ui.com/docs/solid/components/accordion)
+
+## Basic Usage
+
+<ComponentPreview component={() => {
+   const items = ['panel-1', 'panel-2', 'panel-3'];
+    return (
+      <Accordion>
+        <For each={items}>
+          {(item) => (
+            <AccordionItem value={item}>
+              <AccordionTrigger>{item} trigger</AccordionTrigger>
+              <AccordionContent>{item} content</AccordionContent>
+            </AccordionItem>
+          )}
+        </For>
+      </Accordion>
+    );
+}}>
+  ```ts
+  import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@gothammm/hati";
+import { For } from "solid-js";
+
+  const items = ['panel-1', 'panel-2', 'panel-3'];
+  const App = () => { return (
+      <Accordion>
+        <For each={items}>
+          {(item) => (
+            <AccordionItem value={item}>
+              <AccordionTrigger>{item} trigger</AccordionTrigger>
+              <AccordionContent>{item} content</AccordionContent>
+            </AccordionItem>
+          )}
+        </For>
+      </Accordion>
+    );
+  };
+  ```
+</ComponentPreview>
+
+<BottomNavigation
+  previous={{
+    path: "/docs/installation",
+    text: "Installation",
+  }}
+  next={{
+    path: "/docs/components/alert",
+    text: "Alert",
+  }}
+/>

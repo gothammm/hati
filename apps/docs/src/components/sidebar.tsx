@@ -26,6 +26,23 @@ export const Sidebar = () => {
                 </li>
               </ul>
             </li>
+            <li>
+              <h2 class="ms-3 font-medium text-accent-foreground">
+                Components
+              </h2>
+              <ul class="mt-2 space-y-1 text-sm">
+                <li class="group relative">
+                  <a href="/docs/components/accordion" link>
+                    Accordion
+                  </a>
+                </li>
+                <li class="group relative">
+                  <a href="/docs/components/alert" link>
+                    Alert
+                  </a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
       </div>
