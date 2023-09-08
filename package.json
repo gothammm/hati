@@ -6,8 +6,12 @@
     "lint": "turbo run lint",
     "format": "turbo run format:check"
   },
+  "workspaces": ["packages/*", "apps/*"],
   "license": "MIT",
   "keywords": [
     "solid"
-  ]
+  ],
+  "dependencies": {
+    "workspace": "^0.0.1-preview.1"
+  }
 }

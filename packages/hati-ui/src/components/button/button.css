@@ -1,0 +1,38 @@
+.btn {
+  @apply inline-flex
+      h-10
+      items-center
+      justify-center rounded-md
+      px-4 py-2
+      text-sm
+      font-normal
+      transition-colors
+      focus-visible:outline-none
+      focus-visible:ring-2 focus-visible:ring-offset-2
+      sm:h-9
+      sm:px-3
+      lg:h-10
+      [&>svg]:h-4;
+
+  &:disabled {
+    @apply pointer-events-none opacity-[.5];
+  }
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90;
+  }
+
+  .btn-destructive {
+    @apply bg-destructive text-destructive-foreground hover:bg-destructive/90;
+  }
+
+  .btn-outline {
+    @apply border border-input text-accent-foreground hover:bg-accent;
+  }
+  .btn-ghost {
+    @apply text-accent-foreground hover:bg-accent;
+  }
+}

@@ -1,5 +1,5 @@
 import "./home.css";
-import { Button } from "@gothammm/hati";
+import { Button } from "hati-ui";
 import { useNavigate } from "@solidjs/router";
 
 export const Home = () => {

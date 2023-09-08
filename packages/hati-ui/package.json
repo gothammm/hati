@@ -1,0 +1,45 @@
+{
+  "name": "hati-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-js": "^4.0.1",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.3",
+    "vite-plugin-solid": "^2.7.0",
+    "bun-types": "latest"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/hati.d.ts",
+        "default": "./dist/hati.mjs"
+      },
+      "require": "./dist/hati.js"
+    },
+    "./plugin": {
+      "import": {
+        "types": "./dist/plugin.d.ts",
+        "default": "./dist/plugin.mjs"
+      },
+      "require": "./dist/plugin.js"
+    }
+  },
+  "dependencies": {
+    "solid-js": "^1.7.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
