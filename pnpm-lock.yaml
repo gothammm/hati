@@ -11,8 +11,8 @@ importers:
   apps/docs:
     devDependencies:
       '@ark-ui/solid':
-        specifier: ^0.10.0
-        version: 0.10.0(solid-js@1.7.9)
+        specifier: ^0.11.0
+        version: 0.11.0(solid-js@1.7.9)
       '@gothammm/hati':
         specifier: workspace:*
         version: link:../../packages/hati
@@ -92,8 +92,8 @@ importers:
   packages/hati:
     devDependencies:
       '@ark-ui/solid':
-        specifier: ^0.10.0
-        version: 0.10.0(solid-js@1.7.9)
+        specifier: ^0.11.0
+        version: 0.11.0(solid-js@1.7.9)
       '@mapbox/rehype-prism':
         specifier: ^0.8.0
         version: 0.8.0
@@ -166,8 +166,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
 
-  /@ark-ui/solid@0.10.0(solid-js@1.7.9):
-    resolution: {integrity: sha512-ikwPnUEFzvKn6R5RSktwsw4idxFb9xwdvFLlcfDuAdPupXpXuxDTSv5BXh0OoyVH/y5jfwzPWyvz0SalRByeZQ==}
+  /@ark-ui/solid@0.11.0(solid-js@1.7.9):
+    resolution: {integrity: sha512-UJ8CZJueApeSu1R59D2I7bZno6Qeryaf7nbUEl0q7UrnGYxW8ENkEb9R0r/kd30DxdUFSTl++Cf1UAWzV3R6XQ==}
     peerDependencies:
       solid-js: '>=1.6.0'
     dependencies:
@@ -187,6 +187,7 @@ packages:
       '@zag-js/pagination': 0.17.0
       '@zag-js/pin-input': 0.17.0
       '@zag-js/popover': 0.17.0
+      '@zag-js/presence': 0.17.0
       '@zag-js/pressable': 0.17.0
       '@zag-js/radio-group': 0.17.0
       '@zag-js/range-slider': 0.17.0
@@ -1911,6 +1912,13 @@ packages:
       '@zag-js/dom-query': 0.17.0
       '@zag-js/element-rect': 0.17.0
       '@zag-js/utils': 0.17.0
+    dev: true
+
+  /@zag-js/presence@0.17.0:
+    resolution: {integrity: sha512-BMNB4UcDCZMjTSM40By8of5zX1bgbxGq4s9n4sInC1r/9CMpnCdmZpSNRPQUcH7UtAcptFcPc53XuOtc0j6lDA==}
+    dependencies:
+      '@zag-js/core': 0.17.0
+      '@zag-js/types': 0.17.0
     dev: true
 
   /@zag-js/pressable@0.17.0:
