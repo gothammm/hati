@@ -56,8 +56,8 @@ importers:
         specifier: ^0.13.0
         version: 0.13.0(eslint@8.46.0)(typescript@5.1.6)
       lucide-solid:
-        specifier: ^0.274.0
-        version: 0.274.0(solid-js@1.7.9)
+        specifier: ^0.363.0
+        version: 0.363.0(solid-js@1.7.9)
       postcss:
         specifier: ^8.4.27
         version: 8.4.27
@@ -4380,8 +4380,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-solid@0.274.0(solid-js@1.7.9):
-    resolution: {integrity: sha512-cXfdZUiELkBgXIuPKaOIzQHL482bcZIhBj9epOnezkQrqCU7op/DfKjgCRp+zW/YccArXEW4XYGTYQ6tjzcwmA==}
+  /lucide-solid@0.363.0(solid-js@1.7.9):
+    resolution: {integrity: sha512-6iXbSKvyfcr8EUUcIAwz+Ez6zupQjuhQgRGy8n7tLq5kWsuK6zshN8V3D848X8Z5nubnTFoWeKKbSTXjE5VhAQ==}
     peerDependencies:
       solid-js: ^1.4.7
     dependencies:
